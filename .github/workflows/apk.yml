@@ -1,0 +1,70 @@
+name: build-apk
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Install Briefcase
+        run: pip install -q briefcase==0.4.4
+      - name: Signing key (keeps updates installable over the old app)
+        env:
+          KS_B64: ${{ secrets.AMMA_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/amma.keystore"
+            echo "AMMA_KEYSTORE=$RUNNER_TEMP/amma.keystore" >> "$GITHUB_ENV"
+          fi
+      - name: Create Android project
+        working-directory: app
+        run: |
+          briefcase create android --no-input
+          cp -r android-extra/java/. build/amma/android/gradle/app/src/main/java/
+          cp -r android-extra/res/. build/amma/android/gradle/app/src/main/res/
+      - name: Build APK
+        working-directory: app
+        env:
+          AMMA_KS_PASS: ${{ secrets.AMMA_KS_PASS }}
+        run: |
+          briefcase build android --no-input
+          cp build/amma/android/gradle/app/build/outputs/apk/debug/app-debug.apk "$GITHUB_WORKSPACE/amma.apk"
+          ls -la "$GITHUB_WORKSPACE/amma.apk"
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules && sudo udevadm trigger --name-match=kvm
+      - name: Smoke test on emulator + screenshot
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: bash .github/smoke.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: amma-apk
+          path: |
+            amma.apk
+            app-screenshot*.png
+            logcat.txt
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            amma.apk
+            app-screenshot.png
