@@ -1,0 +1,56 @@
+name: daily-data
+# Builds today's calendar, notes, cards (daily) and the stories catalog (weekly),
+# then publishes them to the `data` branch, which the app reads.
+on:
+  schedule:
+    - cron: "40 22 * * *"   # 04:10 IST
+    - cron: "10 0 * * *"    # 05:40 IST (retry / catch late site update)
+  workflow_dispatch:
+    inputs:
+      stories:
+        description: "Also refresh the stories catalog"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: data-branch
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check out previous data
+        run: |
+          git clone -q --depth 1 --branch data "https://github.com/${{ github.repository }}.git" out || mkdir -p out
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq libraqm0 libfribidi0 libharfbuzz0b
+          pip install -q -r backend/requirements.txt
+      - name: Daily calendar and cards
+        env:
+          AMMA_OUT: ${{ github.workspace }}/out
+        run: python backend/build_daily.py
+      - name: Weekly stories (Sunday IST, first run, or on request)
+        env:
+          AMMA_OUT: ${{ github.workspace }}/out
+        run: |
+          # 22:40 UTC Saturday = 04:10 IST Sunday
+          if [ ! -f out/data/catalog.json ] || [ "${{ inputs.stories }}" = "true" ] || { [ "$(date -u +%u)" = "6" ] && [ "${{ github.event.schedule }}" = "40 22 * * *" ]; }; then
+            python backend/stories.py
+          fi
+      - name: Publish to data branch (single commit, no history growth)
+        run: |
+          cd out
+          rm -rf .git
+          git init -q -b data
+          git config user.name "amma-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -qm "data $(TZ=Asia/Kolkata date +%F)"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" data:data
