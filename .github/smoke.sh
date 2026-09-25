@@ -14,7 +14,7 @@ adb shell input tap $((W*3/8)) $Y; sleep 5; adb exec-out screencap -p > app-scre
 adb shell input tap $((W*5/8)) $Y; sleep 8; adb exec-out screencap -p > app-screenshot-stories.png
 adb shell input tap $((W*7/8)) $Y; sleep 4; adb exec-out screencap -p > app-screenshot-setup.png
 # tap an element by its visible text using the accessibility dump (WebView content included)
-tapText(){ adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1; adb shell cat /sdcard/ui.xml > ui.xml
+tapText(){ adb shell dumpsys activity activities | grep -m1 -E 'mResumedActivity|topResumedActivity'; adb shell uiautomator dump /sdcard/ui.xml; adb shell cat /sdcard/ui.xml > ui.xml; cp ui.xml "ui-$(date +%s).xml.txt"; wc -c ui.xml; adb shell dumpsys activity activities | grep -m1 -E 'mResumedActivity|topResumedActivity' 
   b=$(python3 - "$1" <<'PY'
 import re,sys
 x=open("ui.xml",encoding="utf-8",errors="replace").read()
