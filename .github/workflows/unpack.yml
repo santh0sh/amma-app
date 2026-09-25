@@ -1,0 +1,24 @@
+name: unpack-bundle
+# Code updates arrive as bundle.tgz (uploaded through the GitHub web page).
+# This job unpacks it into the repo and removes the bundle.
+on:
+  push:
+    paths: ["bundle.tgz"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack
+        run: |
+          test -f bundle.tgz || exit 0
+          tar xzf bundle.tgz
+          git rm -q --cached bundle.tgz; rm -f bundle.tgz
+          git config user.name "amma-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -qm "Unpack code bundle" || exit 0
+          git push
