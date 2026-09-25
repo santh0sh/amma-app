@@ -10,6 +10,13 @@ sleep 75
 adb shell dumpsys activity activities | grep -E 'mResumedActivity|topResumedActivity|mCurrentFocus' || true
 adb shell dumpsys window | grep -E 'mCurrentFocus|mFocusedApp' || true
 adb logcat -d -v time | grep -E 'io.github.santh0sh.amma|org.beeware.android|chaquopy|python.stdout|python.stderr|AndroidRuntime|FATAL EXCEPTION' | tail -150 || true
+if ! adb shell dumpsys activity activities | grep -q 'topResumedActivity=.*io.github.santh0sh.amma'; then
+  echo 'App left the foreground; relaunching once and capturing diagnostic state'
+  adb shell am start -n io.github.santh0sh.amma/org.beeware.android.MainActivity
+  sleep 25
+  adb shell dumpsys activity activities | grep -E 'topResumedActivity|mCurrentFocus' || true
+  adb logcat -d -v time | grep -E 'io.github.santh0sh.amma|org.beeware.android|python.stdout|python.stderr|AndroidRuntime|FATAL EXCEPTION' | tail -100 || true
+fi
 adb exec-out screencap -p > app-screenshot.png
 # second tab (calendar) and stories, by tapping the bottom bar
 W=$(adb shell wm size | grep -o '[0-9]*x[0-9]*' | tail -1 | cut -dx -f1); H=$(adb shell wm size | grep -o '[0-9]*x[0-9]*' | tail -1 | cut -dx -f2)
