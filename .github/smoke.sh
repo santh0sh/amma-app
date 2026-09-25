@@ -9,7 +9,7 @@ sleep 75
 adb exec-out screencap -p > app-screenshot.png
 # second tab (calendar) and stories, by tapping the bottom bar
 W=$(adb shell wm size | grep -o '[0-9]*x[0-9]*' | tail -1 | cut -dx -f1); H=$(adb shell wm size | grep -o '[0-9]*x[0-9]*' | tail -1 | cut -dx -f2)
-D=$(adb shell wm density | grep -o '[0-9]*' | tail -1); Y=$((H - (48+34)*D/160))
+Y=$((H*96/100))
 adb shell input tap $((W*3/8)) $Y; sleep 5; adb exec-out screencap -p > app-screenshot-calendar.png
 adb shell input tap $((W*5/8)) $Y; sleep 8; adb exec-out screencap -p > app-screenshot-stories.png
 adb shell input tap $((W*7/8)) $Y; sleep 4; adb exec-out screencap -p > app-screenshot-setup.png
