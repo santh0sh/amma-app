@@ -45,7 +45,10 @@ if ANDROID:
             self.app.tts_ready = status == TextToSpeech.SUCCESS
             if self.app.tts_ready:
                 Locale = jclass("java.util.Locale")
-                self.app.tts.setLanguage(Locale("ta", "IN"))
+                r = self.app.tts.setLanguage(Locale("ta", "IN"))
+                print("tts lang", r)
+                if r < 0:  # LANG_MISSING_DATA / LANG_NOT_SUPPORTED
+                    self.app.tts_ready = False
                 self.app.tts.setSpeechRate(0.85)
 
 
