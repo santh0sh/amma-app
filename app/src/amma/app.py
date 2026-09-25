@@ -129,7 +129,11 @@ class Amma(toga.App):
 
     async def _poll(self):
         while True:
-            await asyncio.sleep(0.3)
+            # Android's cooperative event loop may differ from asyncio's process-global
+            # running-loop pointer during startup. Bind timer futures to Toga's loop.
+            tick = self.loop.create_future()
+            self.loop.call_later(0.3, tick.set_result, None)
+            await tick
             try:
                 raw = await self.web.evaluate_javascript("window.amma ? amma.drain() : '[]'")
                 items = json.loads(json.loads(raw) if isinstance(raw, str) and raw.startswith('"') else raw or "[]")
