@@ -1,0 +1,36 @@
+digraph G {
+  rankdir=LR; bgcolor="#fff8ee"; pad=0.4; nodesep=0.35; ranksep=0.7;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, fillcolor="#ffffff", color="#c9a47a"];
+  edge [color="#8a5a2b", fontname="Helvetica", fontsize=9];
+  labelloc=t; fontname="Helvetica-Bold"; fontsize=18; label="Amma app - architecture (v1, zero spend)";
+
+  subgraph cluster_src { label="Free, legal sources"; style="rounded,filled"; fillcolor="#fdebd3"; color="#e8740c"; fontname="Helvetica-Bold";
+    tdc [label="tamildailycalendar.com\ntoday's sheet + year's festivals"];
+    commons [label="Wikimedia Commons\n98 curated CC/PD images\n(gods, peacocks, flowers, nature, kids)"];
+    pm [label="Project Madurai\n~1,100 Tamil texts"];
+    fte [label="FreeTamilEbooks\nCC ebooks (WP REST API)"];
+  }
+  subgraph cluster_gh { label="GitHub (santh0sh/amma-app) - Actions, free"; style="rounded,filled"; fillcolor="#eaf4ea"; color="#1f9d55"; fontname="Helvetica-Bold";
+    daily [label="daily.yml  04:10 + 05:40 IST\nbuild_daily.py\n- calendar + 47 day notes\n- image rotation (festival/deity override,\n  Krishna less often, no repeat 45 days)\n- card renderer (Pillow + raqm, Tamil text)"];
+    weekly [label="weekly (Sunday)\nstories.py\ncatalog + 'new this week'"];
+    databr [label="data branch\ntoday.json, month.json, notify.json,\ncatalog.json, new.json, cards/*.jpg\n(read by the app over raw.githubusercontent.com)", shape=folder, fillcolor="#ffffff"];
+    apkwf [label="apk.yml\nBriefcase build -> signed APK\nemulator smoke test + screenshots\n-> GitHub Release"];
+  }
+  subgraph cluster_app { label="Amma's OnePlus 13 - BeeWare app (Toga + Briefcase)"; style="rounded,filled"; fillcolor="#eef2ff"; color="#3949ab"; fontname="Helvetica-Bold";
+    ui [label="WebView UI (Tamil, large text)\nToday | Calendar | Stories | Setup"];
+    py [label="Python (Chaquopy)\nsync + offline cache\nWhatsApp share / save to Gallery\nTamil TTS, on-device PM reader"];
+    alarm [label="Java AlarmReceiver\n6:30-7:00 AM window\nre-armed on boot/update\ntap -> today's card"];
+    sk [label="SK Clicks photos\n(bundled only in the private\nfamily build, never public)", style="rounded,dashed,filled"];
+    setup [label="OnePlus checklist\nnotifications, battery 'Don't optimise',\nauto-launch, lock in recents, Tamil voice"];
+  }
+  wa [label="WhatsApp\n(card + her caption)", fillcolor="#e9f7ef"];
+
+  tdc -> daily; commons -> daily; pm -> weekly; fte -> weekly;
+  daily -> databr; weekly -> databr;
+  databr -> py;
+  pm -> py [label="story text on demand", style=dashed];
+  fte -> ui [label="opens in browser", style=dashed];
+  apkwf -> ui [label="install / update", style=dashed];
+  py -> ui [dir=both]; alarm -> ui; sk -> ui [style=dashed]; setup -> alarm [style=dotted];
+  py -> wa;
+}
