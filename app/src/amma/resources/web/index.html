@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>அம்மா</title>
+<style>
+:root{--saffron:#e8740c;--deep:#7a2e0e;--cream:#fff8ee;--card:#ffffff;--green:#1f9d55;--muted:#6b5a4e;--line:#f0dfc8;--fs:19px}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--cream);color:#2b1d14;font-family:"Noto Sans Tamil","Latha",sans-serif;font-size:var(--fs);line-height:1.55}
+header{position:sticky;top:0;z-index:5;background:linear-gradient(90deg,#b8420f,#e8740c);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 2px 6px #0003}
+header h1{font-size:1.15em;margin:0;flex:1}
+header .sub{font-size:.8em;opacity:.95}
+main{padding:12px 12px 96px}
+nav{position:fixed;bottom:0;left:0;right:0;background:#fff;display:flex;border-top:1px solid var(--line);box-shadow:0 -2px 8px #0002;z-index:6}
+nav button{flex:1;border:0;background:none;padding:8px 2px 10px;font:inherit;font-size:.78em;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:2px}
+nav button .ic{font-size:1.5em;line-height:1.1}
+nav button.on{color:var(--deep);font-weight:700}
+nav button.on .ic{transform:scale(1.1)}
+.hidden{display:none!important}
+.box{background:var(--card);border-radius:16px;padding:14px 16px;margin:0 0 12px;box-shadow:0 1px 4px #0001;border:1px solid var(--line)}
+.box h2{font-size:1.05em;margin:0 0 8px;color:var(--deep)}
+.cardwrap{position:relative;border-radius:16px;overflow:hidden;background:#000;box-shadow:0 2px 10px #0003}
+.cardwrap img{display:block;width:100%;height:auto;min-height:200px}
+.arrow{position:absolute;top:45%;border:0;background:#0007;color:#fff;font-size:28px;width:48px;height:64px;border-radius:12px}
+.arrow.l{left:6px}.arrow.r{right:6px}
+.dots{text-align:center;margin:8px 0 4px}
+.dots span{display:inline-block;width:10px;height:10px;border-radius:5px;background:#d9c3a5;margin:0 4px}
+.dots span.on{background:var(--saffron);width:22px}
+.big{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;border:0;border-radius:14px;padding:15px;font:inherit;font-size:1.05em;font-weight:700;color:#fff;margin:8px 0}
+.wa{background:var(--green)}.dl{background:#8a5a2b}.pri{background:var(--saffron)}.ghost{background:#fff;color:var(--deep);border:2px solid var(--line)}
+.row2{display:flex;gap:10px}.row2 .big{flex:1}
+textarea,input[type=search]{width:100%;font:inherit;border:2px solid var(--line);border-radius:12px;padding:10px 12px;background:#fff;color:inherit}
+textarea{min-height:64px;resize:vertical}
+.special{border-left:6px solid var(--saffron);background:#fff3e2}
+.special .name{font-weight:700;color:var(--deep);font-size:1.05em}
+.note{color:#3d2b1f}
+.kv{display:grid;grid-template-columns:1fr;gap:0;font-size:.95em}
+.kv .k{margin-top:8px;font-size:.85em}
+.kv .k{color:var(--muted);white-space:nowrap}
+.kv .v{font-weight:600}
+.muted{color:var(--muted);font-size:.85em}
+.toast{position:fixed;left:50%;bottom:92px;transform:translateX(-50%);background:#2b1d14;color:#fff;padding:10px 18px;border-radius:24px;font-size:.9em;z-index:9;max-width:90%;text-align:center}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.cal-head button{border:0;background:#fff;border-radius:10px;font-size:1.3em;width:48px;height:44px;box-shadow:0 1px 3px #0002}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.grid .wd{text-align:center;font-size:.72em;color:var(--muted);padding:4px 0}
+.grid .d{background:#fff;border-radius:10px;min-height:54px;padding:4px 3px;text-align:center;border:1px solid var(--line);font-size:.95em;position:relative}
+.grid .d .n{font-weight:700}
+.grid .d .t{font-size:.58em;color:var(--muted);line-height:1.2}
+.grid .d.sun .n{color:#c0392b}
+.grid .d.fest{background:#ffe7c7;border-color:#f2b36b}
+.grid .d.spec{background:#fff4e4}
+.grid .d.today{outline:3px solid var(--saffron)}
+.grid .d.sel{background:var(--saffron);color:#fff}.grid .d.sel .t{color:#fff}
+.grid .dot{display:block;width:6px;height:6px;border-radius:3px;background:var(--saffron);margin:2px auto 0}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+.chips button{flex:none;border:2px solid var(--line);background:#fff;border-radius:20px;padding:6px 14px;font:inherit;font-size:.85em;color:var(--deep)}
+.chips button.on{background:var(--deep);color:#fff;border-color:var(--deep)}
+.item{display:flex;gap:10px;align-items:center;background:#fff;border-radius:14px;padding:12px 14px;margin-bottom:8px;border:1px solid var(--line)}
+.item .main{flex:1;min-width:0}
+.item .ti{font-weight:700;color:#2b1d14}
+.item .au{font-size:.85em;color:var(--muted)}
+.badge{display:inline-block;font-size:.66em;font-weight:700;padding:2px 8px;border-radius:10px;background:#e9f7ef;color:var(--green);margin-left:6px;vertical-align:middle}
+.badge.new{background:#c0392b;color:#fff}
+.badge.web{background:#eef2ff;color:#3949ab}
+.reader{background:#fffdf8}
+.reader .txt{white-space:pre-wrap;font-size:calc(var(--rfs,21px));line-height:1.8;color:#1d140e}
+.rbar{position:sticky;top:52px;z-index:4;background:var(--cream);padding:6px 0;display:flex;gap:6px;align-items:center}
+.rbar button{border:0;border-radius:10px;background:#fff;box-shadow:0 1px 3px #0002;font:inherit;font-size:.9em;padding:8px 10px;min-width:44px}
+.rbar .sp{flex:1;text-align:center;font-size:.85em;color:var(--muted)}
+.check{display:flex;gap:12px;align-items:flex-start}
+.check .num{flex:none;width:34px;height:34px;border-radius:17px;background:var(--saffron);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center}
+.small-btn{border:0;border-radius:10px;background:var(--deep);color:#fff;font:inherit;font-size:.85em;padding:8px 12px;margin-top:6px}
+.letters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.letters button{border:1px solid var(--line);background:#fff;border-radius:8px;font:inherit;padding:4px 10px}
+</style>
+</head>
+<body>
+<header><div style="flex:1"><h1 id="hTitle">காலை வணக்கம் அம்மா</h1><div class="sub" id="hSub"></div></div><button id="hBack" class="hidden" style="border:0;background:#fff3;color:#fff;font-size:1.2em;border-radius:10px;padding:6px 12px">← பின்</button></header>
+<main>
+<!-- TODAY -->
+<section id="v-today">
+  <div class="cardwrap"><img id="cardImg" alt="இன்றைய படம்"><button class="arrow l" id="prevCard">‹</button><button class="arrow r" id="nextCard">›</button></div>
+  <div class="dots" id="dots"></div>
+  <div class="box">
+    <label class="muted" for="caption">செய்தி (படத்துடன் அனுப்ப)</label>
+    <textarea id="caption"></textarea>
+    <button class="big wa" id="btnShare">📤 WhatsApp-ல் அனுப்பு</button>
+    <div class="row2"><button class="big dl" id="btnDownload">⬇️ பதிவிறக்கு</button><button class="big ghost" id="btnShareAny">🔗 வேறு</button></div>
+  </div>
+  <div id="todaySpecials"></div>
+  <div class="box" id="todaySheet"></div>
+  <div class="box" id="tomorrowBox"></div>
+</section>
+<!-- CALENDAR -->
+<section id="v-cal" class="hidden">
+  <div class="box">
+    <div class="cal-head"><button id="calPrev">‹</button><h2 id="calTitle" style="margin:0"></h2><button id="calNext">›</button></div>
+    <div class="grid" id="calGrid"></div>
+  </div>
+  <div id="calDetail"></div>
+</section>
+<!-- STORIES -->
+<section id="v-stories" class="hidden">
+  <input type="search" id="q" placeholder="🔍 கதை அல்லது ஆசிரியர் பெயர்…">
+  <div class="chips" id="chips"></div>
+  <div id="storyList"></div>
+</section>
+<!-- READER -->
+<section id="v-reader" class="hidden reader">
+  <div class="rbar"><button id="rPrev">‹</button><button id="rSmall">அ-</button><button id="rBig">அ+</button><span class="sp" id="rPage"></span><button id="rSpeak">🔊</button><button id="rNext">›</button></div>
+  <div class="box"><div class="txt" id="rText"></div></div>
+  <div class="row2"><button class="big ghost" id="rPrev2">‹ முந்தைய</button><button class="big pri" id="rNext2">அடுத்த ›</button></div>
+  <p class="muted" id="rSource"></p>
+</section>
+<!-- SETUP -->
+<section id="v-setup" class="hidden">
+  <div class="box"><h2>காலை அறிவிப்பு</h2><p class="note">தினமும் காலை 6:30 முதல் 7:00 மணிக்குள் இன்றைய படம் பற்றி ஒரு அறிவிப்பு வரும். அதைத் தொட்டால் இந்த செயலி திறக்கும்.</p>
+  <button class="big pri" data-act="test_notify">🔔 இப்போது சோதனை அறிவிப்பு</button></div>
+  <div class="box"><h2>OnePlus போனில் ஒரு முறை செய்ய வேண்டியவை</h2><div id="checklist"></div></div>
+  <div class="box"><h2>பற்றி</h2><p class="muted" id="about"></p></div>
+</section>
+</main>
+<nav>
+  <button data-v="today" class="on"><span class="ic">🌅</span>இன்று</button>
+  <button data-v="cal"><span class="ic">📅</span>நாட்காட்டி</button>
+  <button data-v="stories"><span class="ic">📖</span>கதைகள்<span id="newDot" class="badge new hidden">புது</span></button>
+  <button data-v="setup"><span class="ic">⚙️</span>அமைப்பு</button>
+</nav>
+<div id="toast" class="toast hidden"></div>
+<script>
+"use strict";
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const WD=["ஞாயிறு","திங்கள்","செவ்வாய்","புதன்","வியாழன்","வெள்ளி","சனி"];
+const MON=["ஜனவரி","பிப்ரவரி","மார்ச்","ஏப்ரல்","மே","ஜூன்","ஜூலை","ஆகஸ்ட்","செப்டம்பர்","அக்டோபர்","நவம்பர்","டிசம்பர்"];
+const store={get(k,d){try{const v=localStorage.getItem("amma."+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem("amma."+k,JSON.stringify(v))}catch(e){}}};
+const S={today:null,month:null,catalog:null,newIds:[],cards:[],ci:0,view:"today",calY:0,calM:0,sel:null,group:"all",reader:null,speaking:false,sk:[]};
+
+// ---- native bridge: Python polls amma.drain() ----
+const queue=[];
+function native(action,params={}){queue.push({action,...params});if(window.AMMA_DESKTOP)console.log("native",action,params)}
+window.amma={
+  drain(){const q=queue.splice(0);return JSON.stringify(q)},
+  reload(){loadAll()},
+  onStory(id,ok,msg){if(S.reader&&S.reader.id===id){if(ok)openReaderData(id);else{toast(msg||"திறக்க முடியவில்லை");}}},
+  toast(m){toast(m)},
+  speaking(on){S.speaking=on;$("#rSpeak").textContent=on?"⏹":"🔊"},
+  openCard(){show("today")}
+};
+function toast(m){const t=$("#toast");t.textContent=m;t.classList.remove("hidden");clearTimeout(t._h);t._h=setTimeout(()=>t.classList.add("hidden"),2600)}
+async function getJSON(p){const r=await fetch(p+"?t="+Date.now());if(!r.ok)throw new Error(p);return r.json()}
+const clean=v=>String(v||"").replace(/கா\s*\/\s*AM/g,"காலை,").replace(/மா\s*\/\s*PM/g,"மாலை").replace(/,\s*$/,"").replace(/\s+[A-Za-z][A-Za-z ]*$/,"").replace(/\s{2,}/g," ").trim();
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+
+// ---- views ----
+function show(v){S.view=v;$$("main>section").forEach(s=>s.classList.add("hidden"));$("#v-"+v).classList.remove("hidden");
+  $$("nav button").forEach(b=>b.classList.toggle("on",b.dataset.v===v||(v==="reader"&&b.dataset.v==="stories")));
+  $("#hBack").classList.toggle("hidden",v!=="reader");
+  if(v!=="reader"&&S.speaking)native("tts_stop");
+  const titles={today:"காலை வணக்கம் அம்மா",cal:"தமிழ் நாட்காட்டி",stories:"கதைகள்",setup:"அமைப்பு"};
+  if(titles[v])$("#hTitle").textContent=titles[v];
+  if(v==="stories")renderStories();
+  window.scrollTo(0,0)}
+$$("nav button").forEach(b=>b.onclick=()=>show(b.dataset.v));
+$("#hBack").onclick=()=>show("stories");
+
+// ---- today ----
+function renderToday(){
+  const t=S.today; if(!t) return;
+  const d=new Date(t.date+"T00:00:00");
+  $("#hSub").textContent=`${t.weekday_ta}, ${d.getDate()} ${MON[d.getMonth()]} ${d.getFullYear()}${t.tamil_date?" · "+t.tamil_date:""}`;
+  S.cards=(t.cards||[]).map(c=>({src:c.file,credit:c.page}));
+  const sk=S.sk.length?S.sk[(Math.floor(d.getTime()/864e5))%S.sk.length]:null;
+  if(sk)S.cards.splice(1,0,{src:sk,credit:"SK Clicks"});
+  S.ci=0;showCard();
+  if(!$("#caption").value)$("#caption").value=store.get("caption","காலை வணக்கம் 🙏");
+  let h="";
+  for(const it of (t.items||[])){h+=`<div class="box special"><div class="name">${it.kind==="festival"?"🪔":"✨"} ${esc(it.name)}</div><div class="note">${esc(it.note)}</div></div>`}
+  if(t.weekday_note)h+=`<div class="box"><div class="name" style="font-weight:700;color:var(--deep)">${esc(t.weekday_note.name)}க்கிழமை</div><div class="note">${esc(t.weekday_note.note)}</div></div>`;
+  $("#todaySpecials").innerHTML=h;
+  const sh=t.sheet||{}, keys=["thithi","nakshatram","nalla_neram","gowri_nalla_neram","rahu_kalam","emagandam","kuligai","soolam","parigaram","chandirashtamam","naal","sunrise","subakariyam"];
+  let kv=keys.filter(k=>sh[k]&&sh[k].value).map(k=>`<div class="k">${esc(sh[k].label)}</div><div class="v">${esc(clean(sh[k].value))}</div>`).join("");
+  $("#todaySheet").innerHTML=`<h2>இன்றைய பஞ்சாங்கம்</h2>${kv?`<div class="kv">${kv}</div>`:'<p class="muted">இன்றைய விவரம் இன்னும் வரவில்லை. சிறிது நேரம் கழித்துப் பாருங்கள்.</p>'}<p class="muted" style="margin:8px 0 0">ஆதாரம்: tamildailycalendar.com</p>`;
+  const tm=t.tomorrow||{};const ti=(tm.items||[]).map(i=>esc(i.name)).join(", ");
+  $("#tomorrowBox").innerHTML=`<h2>நாளை · ${esc(tm.weekday_ta||"")}</h2><div class="note">${ti||"சிறப்பு நாள் இல்லை"}</div>`;
+}
+function showCard(){const c=S.cards[S.ci];if(!c)return;$("#cardImg").src=c.src;
+  $("#dots").innerHTML=S.cards.map((_,i)=>`<span class="${i===S.ci?"on":""}"></span>`).join("");
+  $("#prevCard").classList.toggle("hidden",S.cards.length<2);$("#nextCard").classList.toggle("hidden",S.cards.length<2)}
+$("#prevCard").onclick=()=>{S.ci=(S.ci-1+S.cards.length)%S.cards.length;showCard()};
+$("#nextCard").onclick=()=>{S.ci=(S.ci+1)%S.cards.length;showCard()};
+let tx=null;$("#cardImg").addEventListener("touchstart",e=>tx=e.touches[0].clientX,{passive:true});
+$("#cardImg").addEventListener("touchend",e=>{if(tx==null)return;const dx=e.changedTouches[0].clientX-tx;tx=null;if(Math.abs(dx)>50)(dx<0?$("#nextCard"):$("#prevCard")).onclick()});
+$("#caption").oninput=e=>store.set("caption",e.target.value);
+$("#btnShare").onclick=()=>{const c=S.cards[S.ci];if(c)native("share",{file:c.src,caption:$("#caption").value,app:"whatsapp"})};
+$("#btnShareAny").onclick=()=>{const c=S.cards[S.ci];if(c)native("share",{file:c.src,caption:$("#caption").value,app:""})};
+$("#btnDownload").onclick=()=>{const c=S.cards[S.ci];if(c)native("download",{file:c.src})};
+
+// ---- calendar ----
+function renderCal(){
+  const y=S.calY,m=S.calM,days=(S.month&&S.month.days)||{};
+  $("#calTitle").textContent=`${MON[m]} ${y}`;
+  const first=new Date(y,m,1),n=new Date(y,m+1,0).getDate(),today=S.today?S.today.date:iso(new Date());
+  let h=WD.map(w=>`<div class="wd">${w.slice(0,3)}</div>`).join("");
+  for(let i=0;i<first.getDay();i++)h+="<div></div>";
+  for(let d=1;d<=n;d++){const k=iso(new Date(y,m,d)),info=days[k]||{items:[]},it=info.items||[];
+    const fest=it.some(i=>i.kind==="festival"),spec=it.length>0;
+    const cls=["d",new Date(y,m,d).getDay()===0?"sun":"",fest?"fest":spec?"spec":"",k===today?"today":"",k===S.sel?"sel":""].join(" ");
+    const lbl=it.length?esc(it[0].name).slice(0,14):"";
+    h+=`<div class="${cls}" data-k="${k}"><div class="n">${d}</div><div class="t">${lbl}</div></div>`}
+  $("#calGrid").innerHTML=h;
+  $$("#calGrid .d").forEach(e=>e.onclick=()=>{S.sel=e.dataset.k;renderCal();renderCalDetail()});
+  renderCalDetail()}
+function renderCalDetail(){const k=S.sel;if(!k){$("#calDetail").innerHTML="";return}
+  const days=(S.month&&S.month.days)||{},info=days[k];const d=new Date(k+"T00:00:00");
+  let h=`<div class="box"><h2>${WD[d.getDay()]}, ${d.getDate()} ${MON[d.getMonth()]}${info&&info.tamil_date?" · "+esc(info.tamil_date):""}</h2>`;
+  if(!info)h+=`<p class="muted">இந்த மாதத்துக்கான விவரம் இன்னும் இல்லை.</p>`;
+  else if(!info.items.length)h+=`<p class="note">சிறப்பு நாள் இல்லை.</p>`;
+  else h+=info.items.map(i=>`<div class="special box" style="margin:8px 0 0"><div class="name">${esc(i.name)}</div><div class="note">${esc(i.note||"")}</div></div>`).join("");
+  $("#calDetail").innerHTML=h+"</div>"}
+$("#calPrev").onclick=()=>{S.calM--;if(S.calM<0){S.calM=11;S.calY--}renderCal()};
+$("#calNext").onclick=()=>{S.calM++;if(S.calM>11){S.calM=0;S.calY++}renderCal()};
+
+// ---- stories ----
+function groupsList(){const g=[{id:"all",label:"எல்லாம்"},{id:"new",label:"🆕 புதியவை"},{id:"cont",label:"📌 தொடர்ந்து படிக்க"},{id:"authors",label:"✍️ ஆசிரியர்கள்"}];
+  return g.concat(((S.catalog&&S.catalog.groups)||[]))}
+function renderStories(){
+  const c=S.catalog;
+  $("#chips").innerHTML=groupsList().map(g=>`<button data-g="${g.id}" class="${S.group===g.id?"on":""}">${esc(g.label)}</button>`).join("");
+  $$("#chips button").forEach(b=>b.onclick=()=>{S.group=b.dataset.g;S.author=null;if(S.group==="new")store.set("seenNew",S.newIds);updateNewDot();renderStories()});
+  if(!c){$("#storyList").innerHTML='<p class="muted">கதைகளின் பட்டியல் ஏற்றப்படுகிறது…</p>';return}
+  const q=$("#q").value.trim().toLowerCase(),prog=store.get("progress",{}),newSet=new Set(S.newIds);
+  let w=c.works;
+  if(S.group==="authors"&&!q&&!S.author){renderAuthors(w);return}
+  if(S.author)w=w.filter(x=>x.author===S.author);
+  else if(S.group==="new")w=w.filter(x=>newSet.has(x.id));
+  else if(S.group==="cont")w=w.filter(x=>prog[x.id]).sort((a,b)=>(prog[b.id].at||0)-(prog[a.id].at||0));
+  else if(!["all","authors"].includes(S.group))w=w.filter(x=>x.group===S.group);
+  if(q)w=w.filter(x=>(x.title+" "+x.author+" "+x.genre).toLowerCase().includes(q));
+  const total=w.length;w=w.slice(0,150);
+  let h=S.author?`<div class="box"><b>✍️ ${esc(S.author)}</b> <button class="small-btn" id="clrAuthor">எல்லா ஆசிரியர்களும்</button></div>`:"";
+  if(!total)h+=`<p class="muted">${S.group==="new"?"இந்த வாரம் புதிய கதைகள் இல்லை.":S.group==="cont"?"இன்னும் எதுவும் படிக்கத் தொடங்கவில்லை.":"எதுவும் கிடைக்கவில்லை."}</p>`;
+  h+=w.map(x=>{const p=prog[x.id];return `<div class="item" data-id="${x.id}"><div class="main"><div class="ti">${esc(x.title)}${newSet.has(x.id)?'<span class="badge new">புது</span>':""}${x.source==="fte"?'<span class="badge web">இணையம்</span>':""}</div><div class="au">${esc(x.author||"—")} · ${esc(x.genre)}${p?` · பக்கம் ${p.page+1}`:""}</div></div><div>›</div></div>`}).join("");
+  if(total>150)h+=`<p class="muted">மேலும் ${total-150} உள்ளன. தேடலில் பெயரை எழுதுங்கள்.</p>`;
+  $("#storyList").innerHTML=h;
+  const ca=$("#clrAuthor");if(ca)ca.onclick=()=>{S.author=null;S.group="authors";renderStories()};
+  $$("#storyList .item").forEach(e=>e.onclick=()=>openWork(e.dataset.id))}
+function renderAuthors(w){const cnt={};w.forEach(x=>{if(x.author)cnt[x.author]=(cnt[x.author]||0)+1});
+  const names=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]||a.localeCompare(b,"ta"));
+  $("#storyList").innerHTML=names.slice(0,300).map(n=>`<div class="item" data-a="${esc(n)}"><div class="main"><div class="ti">${esc(n)}</div><div class="au">${cnt[n]} நூல்கள்</div></div><div>›</div></div>`).join("");
+  $$("#storyList .item").forEach(e=>e.onclick=()=>{S.author=e.dataset.a;renderStories()})}
+let qh=null;$("#q").oninput=()=>{clearTimeout(qh);qh=setTimeout(renderStories,250)};
+function updateNewDot(){const seen=new Set(store.get("seenNew",[]));$("#newDot").classList.toggle("hidden",!S.newIds.some(i=>!seen.has(i)))}
+
+// ---- reader ----
+function openWork(id){const w=S.catalog.works.find(x=>x.id===id);if(!w)return;
+  if(!w.readable){native("open_url",{url:w.link});toast("இணையத்தில் திறக்கிறது…");return}
+  S.reader={id,work:w,pages:null,page:(store.get("progress",{})[id]||{}).page||0};
+  $("#hTitle").textContent=w.title;$("#rText").textContent="ஏற்றப்படுகிறது… (முதல் முறை மட்டும் சற்று நேரம் ஆகும்)";$("#rPage").textContent="";
+  $("#rSource").textContent="ஆதாரம்: Project Madurai (projectmadurai.org)";
+  show("reader");openReaderData(id,true)}
+async function openReaderData(id,first){
+  try{const d=await getJSON(`texts/${id}.json`);if(!S.reader||S.reader.id!==id)return;S.reader.pages=d.pages;if(S.reader.page>=d.pages.length)S.reader.page=0;renderPage()}
+  catch(e){if(first)native("load_story",{id,parts:JSON.stringify(S.reader.work.parts||[])});}}
+function renderPage(){const r=S.reader;if(!r||!r.pages)return;$("#rText").textContent=r.pages[r.page];
+  $("#rPage").textContent=`பக்கம் ${r.page+1} / ${r.pages.length}`;
+  const p=store.get("progress",{});p[r.id]={page:r.page,at:Date.now()};store.set("progress",p);window.scrollTo(0,0)}
+function turn(n){const r=S.reader;if(!r||!r.pages)return;const np=r.page+n;if(np<0||np>=r.pages.length){toast(np<0?"இது முதல் பக்கம்":"கதை முடிந்தது 🙏");return}
+  if(S.speaking)native("tts_stop");r.page=np;renderPage()}
+$("#rPrev").onclick=$("#rPrev2").onclick=()=>turn(-1);$("#rNext").onclick=$("#rNext2").onclick=()=>turn(1);
+function setRfs(v){v=Math.max(16,Math.min(34,v));document.documentElement.style.setProperty("--rfs",v+"px");store.set("rfs",v)}
+$("#rSmall").onclick=()=>setRfs(store.get("rfs",21)-2);$("#rBig").onclick=()=>setRfs(store.get("rfs",21)+2);
+$("#rSpeak").onclick=()=>{if(S.speaking){native("tts_stop");amma.speaking(false)}else if(S.reader&&S.reader.pages){native("tts_speak",{text:S.reader.pages[S.reader.page]});amma.speaking(true)}};
+
+// ---- setup ----
+const CHECK=[
+ ["அறிவிப்பு அனுமதி","காலை அறிவிப்பு வர இந்த அனுமதி தேவை. பொத்தானை அழுத்தி 'அனுமதி' கொடுங்கள்.","notif_permission","அனுமதி கொடு"],
+ ["பேட்டரி: கட்டுப்பாடு வேண்டாம்","Battery → 'Don't optimise' / 'Unrestricted' என்று மாற்றுங்கள். இல்லையென்றால் OnePlus போன் அறிவிப்பை நிறுத்திவிடும்.","battery","பேட்டரி அமைப்பு"],
+ ["Auto-launch அனுமதி","App info → Battery usage → 'Allow auto launch' / 'Allow background activity' இயக்குங்கள்.","app_settings","செயலி அமைப்பு"],
+ ["Recent-ல் பூட்டு","Recent apps திரையில் இந்த செயலியைக் கீழே இழுத்து 🔒 பூட்டு போடுங்கள்.",null,null],
+ ["தமிழ் குரல் (கதை படிக்க)","Settings → Text-to-speech → Google → தமிழ் குரலை பதிவிறக்குங்கள்.","tts_settings","குரல் அமைப்பு"]];
+function renderSetup(){$("#checklist").innerHTML=CHECK.map((c,i)=>`<div class="check" style="margin:0 0 14px"><div class="num">${i+1}</div><div><b>${c[0]}</b><div class="note">${c[1]}</div>${c[2]?`<button class="small-btn" data-act="${c[2]}">${c[3]}</button>`:""}</div></div>`).join("");
+  $$("[data-act]").forEach(b=>b.onclick=()=>native(b.dataset.act));
+  const t=S.today;$("#about").innerHTML=`படங்கள்: Wikimedia Commons (ஒவ்வொரு படத்திலும் உரிமையாளர் பெயர் உள்ளது)${S.sk.length?", SK Clicks":""}. நாட்காட்டி: tamildailycalendar.com. கதைகள்: Project Madurai, FreeTamilEbooks.<br>கடைசியாகப் புதுப்பித்தது: ${esc(t?t.date:"—")}`}
+
+// ---- load ----
+async function loadAll(){
+  try{S.today=await getJSON("data/today.json");store.set("today",S.today)}catch(e){S.today=store.get("today",null)}
+  try{S.month=await getJSON("data/month.json")}catch(e){}
+  try{S.sk=(await getJSON("sk/index.json")).map(f=>"sk/"+f)}catch(e){S.sk=[]}
+  try{S.catalog=await getJSON("data/catalog.json")}catch(e){}
+  try{S.newIds=(await getJSON("data/new.json")).ids||[]}catch(e){}
+  if(!S.today){$("#todaySpecials").innerHTML='<div class="box"><p class="note">இணையம் இணைந்ததும் இன்றைய படம் வரும்.</p></div>';}
+  renderToday();renderSetup();updateNewDot();
+  if(!S.calY){const d=S.today?new Date(S.today.date+"T00:00:00"):new Date();S.calY=d.getFullYear();S.calM=d.getMonth();S.sel=iso(d)}
+  renderCal();if(S.view==="stories")renderStories()}
+setRfs(store.get("rfs",21));
+loadAll();
+</script>
+</body>
+</html>

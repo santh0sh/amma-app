@@ -1,0 +1,63 @@
+[tool.briefcase]
+project_name = "Amma"
+bundle = "io.github.santh0sh"
+version = "1.0.0"
+url = "https://github.com/santh0sh/amma-app"
+license.file = "LICENSE"
+author = "Santhosh Kulathumani"
+author_email = "santh0sh@users.noreply.github.com"
+
+[tool.briefcase.app.amma]
+formal_name = "அம்மா"
+description = "Tamil calendar, good-morning cards and Tamil stories for Amma"
+long_description = "Daily Tamil calendar, good-morning cards to share on WhatsApp, and free Tamil stories with read-aloud."
+sources = ["src/amma"]
+requires = []
+icon = "icons/amma"
+
+[tool.briefcase.app.amma.android]
+requires = ["toga-android==0.5.6"]
+base_theme = "Theme.MaterialComponents.Light.NoActionBar"
+primary_color = "#b8420f"
+primary_color_dark = "#7a2e0e"
+accent_color = "#e8740c"
+splash_background_color = "#fff8ee"
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.12.0",
+    "androidx.core:core:1.13.1",
+    "androidx.webkit:webkit:1.15.0",
+]
+build_gradle_extra_content = """
+android {
+    defaultConfig {
+        python {
+            staticProxy("toga_android.widgets.internal.webview")
+        }
+    }
+    signingConfigs {
+        debug {
+            if (System.getenv("AMMA_KEYSTORE")) {
+                storeFile file(System.getenv("AMMA_KEYSTORE"))
+                storePassword System.getenv("AMMA_KS_PASS")
+                keyAlias "amma"
+                keyPassword System.getenv("AMMA_KS_PASS")
+            }
+        }
+    }
+}
+"""
+android_manifest_application_extra_content = """
+        <receiver android:name="io.github.santh0sh.amma.AlarmReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="io.github.santh0sh.amma.MORNING" />
+            </intent-filter>
+        </receiver>
+"""
+
+[tool.briefcase.app.amma.android.permission]
+"android.permission.POST_NOTIFICATIONS" = true
+"android.permission.RECEIVE_BOOT_COMPLETED" = true
+"android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" = true
+"android.permission.WRITE_EXTERNAL_STORAGE" = { "android:maxSdkVersion" = "28" }
