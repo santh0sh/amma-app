@@ -43,8 +43,8 @@ PY
 adb shell uiautomator dump /sdcard/ui.xml >/dev/null 2>&1   # warm up WebView accessibility tree
 # reader + TTS: open the stories tab, the first story, then the speaker button
 adb shell input tap $((W*5/8)) $Y; sleep 4
-tapText "பொன்னியின்" || true; sleep 25; adb exec-out screencap -p > app-screenshot-reader.png
-tapText "id:rSpeak" || true; sleep 6; adb exec-out screencap -p > app-screenshot-tts.png
+tapText "காதலினால் அல்ல" || true; sleep 45; adb exec-out screencap -p > app-screenshot-reader.png
+tapText "id:rSpeak" || true; sleep 12; adb exec-out screencap -p > app-screenshot-tts.png
 # share + download from the Today card
 adb shell input tap $((W*1/8)) $Y; sleep 3
 adb shell input swipe $((W/2)) $((H*70/100)) $((W/2)) $((H*30/100)) 400; sleep 2
