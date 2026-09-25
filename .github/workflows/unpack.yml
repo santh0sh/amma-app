@@ -14,12 +14,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unpack
         run: |
-          # the web uploader may prefix the name (e.g. 3-bundle.tgz)
-          b=$(ls *bundle* 2>/dev/null | head -1)
-          test -n "$b" || exit 0
-          case "$b" in *.b64) base64 -d "$b" > /tmp/bundle.tgz ;; *) cp "$b" /tmp/bundle.tgz ;; esac
+          # bundle arrives as bundle.b64.partNN files plus bundle.sha256 (written last)
+          test -f bundle.sha256 || exit 0
+          cat bundle.b64.part* | tr -d ' \r' | base64 -d > /tmp/bundle.tgz
+          echo "$(cat bundle.sha256)  /tmp/bundle.tgz" | sha256sum -c -
           tar xzf /tmp/bundle.tgz
-          git rm -q --cached -- *bundle*; rm -f -- *bundle*
+          git rm -q --cached -- bundle.b64.part* bundle.sha256; rm -f -- bundle.b64.part* bundle.sha256
           git config user.name "amma-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
