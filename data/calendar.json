@@ -1,0 +1,1341 @@
+{
+ "specials": {
+  "2026-09-10": [
+   "amavasai"
+  ],
+  "2026-09-26": [
+   "pournami"
+  ],
+  "2026-09-03": [
+   "karthigai"
+  ],
+  "2026-09-30": [
+   "karthigai"
+  ],
+  "2026-09-17": [
+   "sashti"
+  ],
+  "2026-09-29": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-09-14": [
+   "chathurthi"
+  ],
+  "2026-09-08": [
+   "pradosham"
+  ],
+  "2026-09-24": [
+   "pradosham"
+  ],
+  "2026-09-22": [
+   "thiruvonam",
+   "ekadasi"
+  ],
+  "2026-09-09": [
+   "maadha_sivarathiri"
+  ],
+  "2026-09-07": [
+   "ekadasi"
+  ],
+  "2026-09-04": [
+   "ashtami"
+  ],
+  "2026-09-19": [
+   "ashtami"
+  ],
+  "2026-09-05": [
+   "navami"
+  ],
+  "2026-09-20": [
+   "navami"
+  ],
+  "2026-01-18": [
+   "amavasai"
+  ],
+  "2026-01-03": [
+   "pournami"
+  ],
+  "2026-01-27": [
+   "karthigai",
+   "navami"
+  ],
+  "2026-01-24": [
+   "sashti"
+  ],
+  "2026-01-06": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-01-22": [
+   "chathurthi"
+  ],
+  "2026-01-01": [
+   "pradosham"
+  ],
+  "2026-01-16": [
+   "pradosham"
+  ],
+  "2026-01-30": [
+   "pradosham"
+  ],
+  "2026-01-19": [
+   "thiruvonam"
+  ],
+  "2026-01-17": [
+   "maadha_sivarathiri"
+  ],
+  "2026-01-14": [
+   "ekadasi"
+  ],
+  "2026-01-29": [
+   "ekadasi"
+  ],
+  "2026-01-11": [
+   "ashtami"
+  ],
+  "2026-01-26": [
+   "ashtami"
+  ],
+  "2026-01-12": [
+   "navami"
+  ],
+  "2026-02-17": [
+   "amavasai"
+  ],
+  "2026-02-01": [
+   "pournami"
+  ],
+  "2026-02-23": [
+   "karthigai"
+  ],
+  "2026-02-22": [
+   "sashti"
+  ],
+  "2026-02-05": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-02-21": [
+   "chathurthi"
+  ],
+  "2026-02-14": [
+   "pradosham"
+  ],
+  "2026-02-16": [
+   "thiruvonam"
+  ],
+  "2026-02-15": [
+   "maadha_sivarathiri"
+  ],
+  "2026-02-13": [
+   "ekadasi"
+  ],
+  "2026-02-27": [
+   "ekadasi"
+  ],
+  "2026-02-09": [
+   "ashtami"
+  ],
+  "2026-02-24": [
+   "ashtami"
+  ],
+  "2026-02-10": [
+   "navami"
+  ],
+  "2026-02-25": [
+   "navami"
+  ],
+  "2026-03-18": [
+   "amavasai"
+  ],
+  "2026-03-03": [
+   "pournami"
+  ],
+  "2026-03-23": [
+   "karthigai"
+  ],
+  "2026-03-24": [
+   "sashti"
+  ],
+  "2026-03-06": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-03-22": [
+   "chathurthi"
+  ],
+  "2026-03-01": [
+   "pradosham"
+  ],
+  "2026-03-16": [
+   "pradosham"
+  ],
+  "2026-03-30": [
+   "pradosham"
+  ],
+  "2026-03-15": [
+   "thiruvonam",
+   "ekadasi"
+  ],
+  "2026-03-17": [
+   "maadha_sivarathiri"
+  ],
+  "2026-03-29": [
+   "ekadasi"
+  ],
+  "2026-03-11": [
+   "ashtami"
+  ],
+  "2026-03-26": [
+   "ashtami"
+  ],
+  "2026-03-12": [
+   "navami"
+  ],
+  "2026-03-27": [
+   "navami"
+  ],
+  "2026-04-17": [
+   "amavasai"
+  ],
+  "2026-04-01": [
+   "pournami"
+  ],
+  "2026-04-19": [
+   "karthigai"
+  ],
+  "2026-04-22": [
+   "sashti"
+  ],
+  "2026-04-05": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-04-20": [
+   "chathurthi"
+  ],
+  "2026-04-15": [
+   "pradosham",
+   "maadha_sivarathiri"
+  ],
+  "2026-04-29": [
+   "pradosham"
+  ],
+  "2026-04-11": [
+   "thiruvonam",
+   "navami"
+  ],
+  "2026-04-13": [
+   "ekadasi"
+  ],
+  "2026-04-27": [
+   "ekadasi"
+  ],
+  "2026-04-10": [
+   "ashtami"
+  ],
+  "2026-04-24": [
+   "ashtami"
+  ],
+  "2026-04-25": [
+   "navami"
+  ],
+  "2026-05-18": [
+   "amavasai"
+  ],
+  "2026-05-01": [
+   "pournami"
+  ],
+  "2026-05-31": [
+   "pournami"
+  ],
+  "2026-05-16": [
+   "karthigai"
+  ],
+  "2026-05-22": [
+   "sashti"
+  ],
+  "2026-05-05": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-05-20": [
+   "chathurthi"
+  ],
+  "2026-05-14": [
+   "pradosham"
+  ],
+  "2026-05-28": [
+   "pradosham"
+  ],
+  "2026-05-09": [
+   "thiruvonam",
+   "ashtami"
+  ],
+  "2026-05-15": [
+   "maadha_sivarathiri"
+  ],
+  "2026-05-13": [
+   "ekadasi"
+  ],
+  "2026-05-27": [
+   "ekadasi"
+  ],
+  "2026-05-23": [
+   "ashtami"
+  ],
+  "2026-05-10": [
+   "navami"
+  ],
+  "2026-05-24": [
+   "navami"
+  ],
+  "2026-06-14": [
+   "amavasai"
+  ],
+  "2026-06-29": [
+   "pournami"
+  ],
+  "2026-06-13": [
+   "karthigai",
+   "maadha_sivarathiri"
+  ],
+  "2026-06-20": [
+   "sashti"
+  ],
+  "2026-06-04": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-06-18": [
+   "chathurthi"
+  ],
+  "2026-06-12": [
+   "pradosham"
+  ],
+  "2026-06-27": [
+   "pradosham"
+  ],
+  "2026-06-05": [
+   "thiruvonam"
+  ],
+  "2026-06-11": [
+   "ekadasi"
+  ],
+  "2026-06-25": [
+   "ekadasi"
+  ],
+  "2026-06-08": [
+   "ashtami"
+  ],
+  "2026-06-22": [
+   "ashtami"
+  ],
+  "2026-06-09": [
+   "navami"
+  ],
+  "2026-06-23": [
+   "navami"
+  ],
+  "2026-07-14": [
+   "amavasai"
+  ],
+  "2026-07-29": [
+   "pournami"
+  ],
+  "2026-07-10": [
+   "karthigai",
+   "ekadasi"
+  ],
+  "2026-07-19": [
+   "sashti"
+  ],
+  "2026-07-03": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-07-17": [
+   "chathurthi"
+  ],
+  "2026-07-12": [
+   "pradosham",
+   "maadha_sivarathiri"
+  ],
+  "2026-07-26": [
+   "pradosham"
+  ],
+  "2026-07-02": [
+   "thiruvonam"
+  ],
+  "2026-07-30": [
+   "thiruvonam"
+  ],
+  "2026-07-25": [
+   "ekadasi"
+  ],
+  "2026-07-07": [
+   "ashtami"
+  ],
+  "2026-07-21": [
+   "ashtami"
+  ],
+  "2026-07-08": [
+   "navami"
+  ],
+  "2026-07-22": [
+   "navami"
+  ],
+  "2026-08-12": [
+   "amavasai"
+  ],
+  "2026-08-27": [
+   "pournami"
+  ],
+  "2026-08-06": [
+   "karthigai",
+   "ashtami"
+  ],
+  "2026-08-18": [
+   "sashti"
+  ],
+  "2026-08-02": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-08-31": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-08-16": [
+   "chathurthi"
+  ],
+  "2026-08-10": [
+   "pradosham"
+  ],
+  "2026-08-25": [
+   "pradosham"
+  ],
+  "2026-08-26": [
+   "thiruvonam"
+  ],
+  "2026-08-11": [
+   "maadha_sivarathiri"
+  ],
+  "2026-08-09": [
+   "ekadasi"
+  ],
+  "2026-08-23": [
+   "ekadasi"
+  ],
+  "2026-08-20": [
+   "ashtami"
+  ],
+  "2026-08-07": [
+   "navami"
+  ],
+  "2026-08-21": [
+   "navami"
+  ],
+  "2026-10-10": [
+   "amavasai"
+  ],
+  "2026-10-25": [
+   "pournami"
+  ],
+  "2026-10-27": [
+   "karthigai"
+  ],
+  "2026-10-16": [
+   "sashti"
+  ],
+  "2026-10-29": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-10-14": [
+   "chathurthi"
+  ],
+  "2026-10-08": [
+   "pradosham"
+  ],
+  "2026-10-23": [
+   "pradosham"
+  ],
+  "2026-10-19": [
+   "thiruvonam",
+   "navami"
+  ],
+  "2026-10-09": [
+   "maadha_sivarathiri"
+  ],
+  "2026-10-06": [
+   "ekadasi"
+  ],
+  "2026-10-22": [
+   "ekadasi"
+  ],
+  "2026-10-03": [
+   "ashtami"
+  ],
+  "2026-10-18": [
+   "ashtami"
+  ],
+  "2026-10-04": [
+   "navami"
+  ],
+  "2026-11-08": [
+   "amavasai"
+  ],
+  "2026-11-24": [
+   "pournami",
+   "karthigai"
+  ],
+  "2026-11-15": [
+   "sashti"
+  ],
+  "2026-11-27": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-11-13": [
+   "chathurthi"
+  ],
+  "2026-11-06": [
+   "pradosham"
+  ],
+  "2026-11-22": [
+   "pradosham"
+  ],
+  "2026-11-16": [
+   "thiruvonam"
+  ],
+  "2026-11-07": [
+   "maadha_sivarathiri"
+  ],
+  "2026-11-05": [
+   "ekadasi"
+  ],
+  "2026-11-20": [
+   "ekadasi"
+  ],
+  "2026-11-02": [
+   "ashtami"
+  ],
+  "2026-11-17": [
+   "ashtami"
+  ],
+  "2026-11-03": [
+   "navami"
+  ],
+  "2026-11-18": [
+   "navami"
+  ],
+  "2026-12-08": [
+   "amavasai"
+  ],
+  "2026-12-23": [
+   "pournami"
+  ],
+  "2026-12-21": [
+   "karthigai",
+   "pradosham"
+  ],
+  "2026-12-15": [
+   "sashti"
+  ],
+  "2026-12-27": [
+   "sankatahara_chathurthi"
+  ],
+  "2026-12-13": [
+   "chathurthi",
+   "thiruvonam"
+  ],
+  "2026-12-06": [
+   "pradosham"
+  ],
+  "2026-12-07": [
+   "maadha_sivarathiri"
+  ],
+  "2026-12-04": [
+   "ekadasi"
+  ],
+  "2026-12-20": [
+   "ekadasi"
+  ],
+  "2026-12-01": [
+   "ashtami"
+  ],
+  "2026-12-17": [
+   "ashtami"
+  ],
+  "2026-12-31": [
+   "ashtami"
+  ],
+  "2026-12-02": [
+   "navami"
+  ],
+  "2026-12-18": [
+   "navami"
+  ]
+ },
+ "festivals": {
+  "2026-09-04": [
+   {
+    "ta": "கோகுலாஷ்டமி",
+    "en": "Gokulashtami",
+    "key": "gokulashtami"
+   }
+  ],
+  "2026-09-14": [
+   {
+    "ta": "விநாயகர் சதுர்த்தி",
+    "en": "Vinayagar Chathurthi",
+    "key": "vinayagar_chathurthi"
+   }
+  ],
+  "2026-09-27": [
+   {
+    "ta": "மஹாளய பட்சாரம்பம்",
+    "en": "Mahalaya Baksharambam",
+    "key": "mahalaya_paksham"
+   }
+  ],
+  "2026-01-03": [
+   {
+    "ta": "ஆருத்ரா தரிசனம்",
+    "en": "Aaruthra Dharisanam",
+    "key": null
+   }
+  ],
+  "2026-01-11": [
+   {
+    "ta": "கெர்போட்ட நிவர்த்தி",
+    "en": "Kerpotta Nivarththi",
+    "key": null
+   }
+  ],
+  "2026-01-14": [
+   {
+    "ta": "போகிப் பண்டிகை",
+    "en": "Bogi Pandigai",
+    "key": "bhogi"
+   }
+  ],
+  "2026-01-15": [
+   {
+    "ta": "தைப் பொங்கல்",
+    "en": "Thai Pongal",
+    "key": "pongal"
+   }
+  ],
+  "2026-01-16": [
+   {
+    "ta": "மாட்டுப் பொங்கல்",
+    "en": "Mattu Pongal",
+    "key": "mattu_pongal"
+   },
+   {
+    "ta": "திருவள்ளுவர் தினம்",
+    "en": "Thiruvalluvar Dhinam",
+    "key": null
+   }
+  ],
+  "2026-01-17": [
+   {
+    "ta": "உழவர் திருநாள்",
+    "en": "Uzhavar Thirunal",
+    "key": null
+   }
+  ],
+  "2026-01-18": [
+   {
+    "ta": "தை அமாவாசை",
+    "en": "Thai Amavasai",
+    "key": null
+   }
+  ],
+  "2026-01-25": [
+   {
+    "ta": "ரத ஸப்தமி",
+    "en": "Ratha Sapthami",
+    "key": null
+   }
+  ],
+  "2026-02-01": [
+   {
+    "ta": "தைப்பூசம்",
+    "en": "Thaipoosam",
+    "key": "thaipoosam"
+   }
+  ],
+  "2026-02-15": [
+   {
+    "ta": "மஹாசிவராத்திரி",
+    "en": "Mahasivarathiri",
+    "key": "maha_sivarathiri"
+   }
+  ],
+  "2026-03-02": [
+   {
+    "ta": "மாசிமகம்",
+    "en": "Masimagam",
+    "key": null
+   }
+  ],
+  "2026-03-03": [
+   {
+    "ta": "ஹோலிப் பண்டிகை",
+    "en": "Holi",
+    "key": null
+   }
+  ],
+  "2026-03-14": [
+   {
+    "ta": "காரடையான் நோன்பு",
+    "en": "Karadaiyan Nonbu",
+    "key": null
+   }
+  ],
+  "2026-03-19": [
+   {
+    "ta": "உகாதி தெலுங்கு வருடப் பிறப்பு",
+    "en": "Ugadi Telugu New Year",
+    "key": null
+   }
+  ],
+  "2026-03-27": [
+   {
+    "ta": "ஸ்ரீ ராமநவமி",
+    "en": "Sri Ramanavami",
+    "key": "sri_rama_navami"
+   }
+  ],
+  "2026-04-01": [
+   {
+    "ta": "பங்குனி உத்திரம்",
+    "en": "Panguni Uththiram",
+    "key": "panguni_uthiram"
+   }
+  ],
+  "2026-04-14": [
+   {
+    "ta": "தமிழ் வருடப் பிறப்பு",
+    "en": "Tamil New Year",
+    "key": "tamil_puthandu"
+   }
+  ],
+  "2026-04-20": [
+   {
+    "ta": "அட்சய திரிதியை",
+    "en": "Akshaya Thirithiyai",
+    "key": null
+   }
+  ],
+  "2026-04-21": [
+   {
+    "ta": "ஸ்ரீமத் சங்கர ஜெயந்தி",
+    "en": "Srimath Sankara Jayanthi",
+    "key": null
+   }
+  ],
+  "2026-04-28": [
+   {
+    "ta": "மீனாட்சி திருக்கல்யாணம்",
+    "en": "Meenakshi Thirukkalyananm",
+    "key": null
+   }
+  ],
+  "2026-04-30": [
+   {
+    "ta": "கள்ளழகர் எதிர்ஸேவை",
+    "en": "Kallazhagar Edhirsevai",
+    "key": null
+   }
+  ],
+  "2026-05-01": [
+   {
+    "ta": "கள்ளழகர் வைகை எழுந்தருளல்",
+    "en": "Kallazhagar Vaigai Ezhundharulal",
+    "key": null
+   }
+  ],
+  "2026-05-04": [
+   {
+    "ta": "அக்னி நட்சத்திரம் துவக்கம்",
+    "en": "Agni Natchathiram Begins",
+    "key": null
+   }
+  ],
+  "2026-05-28": [
+   {
+    "ta": "அக்னி நட்சத்திரம் முடிவு",
+    "en": "Agni Natchathiram Ends",
+    "key": null
+   },
+   {
+    "ta": "பக்ரீத் பண்டிகை",
+    "en": "Bakrid",
+    "key": null
+   }
+  ],
+  "2026-05-30": [
+   {
+    "ta": "வைகாசி விசாகம்",
+    "en": "Vaigasi Visagam",
+    "key": null
+   }
+  ],
+  "2026-06-22": [
+   {
+    "ta": "ஆனி உத்திர தரிசனம்",
+    "en": "Aani Uthira Dharisanam",
+    "key": null
+   }
+  ],
+  "2026-06-26": [
+   {
+    "ta": "மொஹரம்",
+    "en": "Muharram",
+    "key": null
+   }
+  ],
+  "2026-07-02": [
+   {
+    "ta": "தேவமாதா காட்சியருளிய நாள்",
+    "en": "Devamaadha Kaatchi",
+    "key": null
+   }
+  ],
+  "2026-07-29": [
+   {
+    "ta": "சங்கரன்கோவில் தபசு",
+    "en": "Sankarankovil Thabasu",
+    "key": null
+   }
+  ],
+  "2026-08-03": [
+   {
+    "ta": "ஆடிப்பெருக்கு விழா",
+    "en": "Aadi Perukku Vizha",
+    "key": "aadi_perukku"
+   }
+  ],
+  "2026-08-14": [
+   {
+    "ta": "திருஆடிப்பூரம்",
+    "en": "Thiru Aadippooram",
+    "key": null
+   }
+  ],
+  "2026-08-17": [
+   {
+    "ta": "கெருட பஞ்சமி",
+    "en": "Geruda Panchami",
+    "key": null
+   }
+  ],
+  "2026-08-21": [
+   {
+    "ta": "வரலட்சுமி விரதம்",
+    "en": "Varalakshmi Viradham",
+    "key": "varalakshmi_viratham"
+   }
+  ],
+  "2026-08-26": [
+   {
+    "ta": "ஓணம் பண்டிகை",
+    "en": "Onam",
+    "key": null
+   },
+   {
+    "ta": "மீலாது நபி",
+    "en": "Milad-un-Nabi",
+    "key": null
+   }
+  ],
+  "2026-08-27": [
+   {
+    "ta": "ஆவணி அவிட்டம்",
+    "en": "Aavani Avittam",
+    "key": "aavani_avittam"
+   }
+  ],
+  "2026-08-28": [
+   {
+    "ta": "காயத்ரி ஜெபம்",
+    "en": "Gayathri Jabam",
+    "key": null
+   }
+  ],
+  "2026-08-31": [
+   {
+    "ta": "மஹா சங்கடஹர சதுர்த்தி",
+    "en": "Maha Sankadahara Sathurthi",
+    "key": null
+   }
+  ],
+  "2026-10-10": [
+   {
+    "ta": "மஹாளய அமாவாசை",
+    "en": "Mahalaya Amavasai",
+    "key": "mahalaya_amavasai"
+   }
+  ],
+  "2026-10-11": [
+   {
+    "ta": "நவராத்திரி துவக்கம்",
+    "en": "Navaratri Begins",
+    "key": "navarathiri"
+   }
+  ],
+  "2026-10-19": [
+   {
+    "ta": "சரஸ்வதி பூஜை",
+    "en": "Saraswati Poojai",
+    "key": "saraswathi_pooja"
+   },
+   {
+    "ta": "ஆயுத பூஜை",
+    "en": "Aayudha Poojai",
+    "key": "saraswathi_pooja"
+   }
+  ],
+  "2026-10-20": [
+   {
+    "ta": "விஜய தசமி",
+    "en": "Vijaya Dasami",
+    "key": "vijayadasami"
+   }
+  ],
+  "2026-11-08": [
+   {
+    "ta": "தீபாவளி",
+    "en": "Deepavali",
+    "key": "deepavali"
+   }
+  ],
+  "2026-11-10": [
+   {
+    "ta": "கந்த ஷஷ்டி துவக்கம்",
+    "en": "Kandha Shashdi Begins",
+    "key": null
+   }
+  ],
+  "2026-11-15": [
+   {
+    "ta": "சூரசம்ஹாரம்",
+    "en": "Soorasamharam",
+    "key": "kandha_sashti"
+   }
+  ],
+  "2026-11-24": [
+   {
+    "ta": "திருக்கார்த்திகை",
+    "en": "Thirukkarththigai",
+    "key": "karthigai_deepam"
+   },
+   {
+    "ta": "பாஞ்சராத்திர தீபம்",
+    "en": "Paajaraathira Deepam",
+    "key": null
+   }
+  ],
+  "2026-12-20": [
+   {
+    "ta": "வைகுண்ட ஏகாதசி",
+    "en": "Vaigunta Egadhasi",
+    "key": "vaikunta_ekadasi"
+   }
+  ],
+  "2026-12-24": [
+   {
+    "ta": "ஆருத்ரா தரிசனம்",
+    "en": "Aaruthra Dharisanam",
+    "key": null
+   }
+  ],
+  "2026-12-25": [
+   {
+    "ta": "கிறிஸ்துமஸ்",
+    "en": "Christmas",
+    "key": null
+   }
+  ],
+  "2026-12-29": [
+   {
+    "ta": "கெர்போட்ட ஆரம்பம்",
+    "en": "Kerpotta Aarambam",
+    "key": null
+   }
+  ]
+ },
+ "holidays": {
+  "2026-09-04": [
+   {
+    "ta": "கோகுலாஷ்டமி",
+    "en": "Gokulashtami",
+    "key": "gokulashtami"
+   }
+  ],
+  "2026-09-14": [
+   {
+    "ta": "விநாயகர் சதுர்த்தி",
+    "en": "Vinayagar Chathurthi",
+    "key": "vinayagar_chathurthi"
+   }
+  ],
+  "2026-01-01": [
+   {
+    "ta": "ஆங்கிலப் புத்தாண்டு",
+    "en": "",
+    "key": null
+   }
+  ],
+  "2026-01-15": [
+   {
+    "ta": "தைப் பொங்கல்",
+    "en": "",
+    "key": null
+   }
+  ],
+  "2026-01-16": [
+   {
+    "ta": "மாட்டுப் பொங்கல்",
+    "en": "",
+    "key": null
+   }
+  ],
+  "2026-01-17": [
+   {
+    "ta": "உழவர் திருநாள்",
+    "en": "",
+    "key": null
+   }
+  ],
+  "2026-01-26": [
+   {
+    "ta": "இந்திய குடியரசு தினம்",
+    "en": "",
+    "key": null
+   }
+  ],
+  "2026-02-01": [
+   {
+    "ta": "தைப்பூசம்",
+    "en": "Thai Poosam",
+    "key": "thaipoosam"
+   }
+  ],
+  "2026-03-19": [
+   {
+    "ta": "உகாதி தெலுங்கு வருடப் பிறப்பு",
+    "en": "Ugadi Telugu New Year",
+    "key": null
+   }
+  ],
+  "2026-03-21": [
+   {
+    "ta": "ரமலான் பண்டிகை",
+    "en": "Ramzan",
+    "key": null
+   }
+  ],
+  "2026-03-31": [
+   {
+    "ta": "மஹாவீர் ஜயந்தி",
+    "en": "Mahaveer Jayanthi",
+    "key": null
+   }
+  ],
+  "2026-04-03": [
+   {
+    "ta": "புனித வெள்ளி",
+    "en": "Good Friday",
+    "key": null
+   }
+  ],
+  "2026-04-14": [
+   {
+    "ta": "தமிழ் வருடப் பிறப்பு",
+    "en": "Tamil New Year",
+    "key": "tamil_puthandu"
+   },
+   {
+    "ta": "அம்பேத்கர் பிறந்த நாள்",
+    "en": "Ambedkar Birthday",
+    "key": null
+   }
+  ],
+  "2026-05-01": [
+   {
+    "ta": "மே தினம்",
+    "en": "May Day",
+    "key": null
+   }
+  ],
+  "2026-05-28": [
+   {
+    "ta": "பக்ரீத் பண்டிகை",
+    "en": "Bakrid",
+    "key": null
+   }
+  ],
+  "2026-06-26": [
+   {
+    "ta": "மொஹரம் பண்டிகை",
+    "en": "Muharram",
+    "key": null
+   }
+  ],
+  "2026-08-15": [
+   {
+    "ta": "சுதந்திர தினம்",
+    "en": "Independance Day",
+    "key": null
+   }
+  ],
+  "2026-08-26": [
+   {
+    "ta": "மீலாது நபி",
+    "en": "Milad-un-Nabi",
+    "key": null
+   }
+  ],
+  "2026-10-02": [
+   {
+    "ta": "காந்தி ஜெயந்தி",
+    "en": "Gandhi Jayanthi",
+    "key": null
+   }
+  ],
+  "2026-10-10": [
+   {
+    "ta": "சரஸ்வதி பூஜை",
+    "en": "Saraswathi Poojai",
+    "key": "saraswathi_pooja"
+   },
+   {
+    "ta": "ஆயுத பூஜை",
+    "en": "Aayudha Poojai",
+    "key": "saraswathi_pooja"
+   }
+  ],
+  "2026-10-20": [
+   {
+    "ta": "விஜய தசமி",
+    "en": "Vijaya Dasami",
+    "key": "vijayadasami"
+   }
+  ],
+  "2026-11-08": [
+   {
+    "ta": "தீபாவளி",
+    "en": "Deepavali",
+    "key": "deepavali"
+   }
+  ],
+  "2026-12-25": [
+   {
+    "ta": "கிறிஸ்துமஸ்",
+    "en": "Christmas",
+    "key": null
+   }
+  ]
+ },
+ "wedding_days": [
+  "2026-01-28",
+  "2026-02-06",
+  "2026-02-08",
+  "2026-02-13",
+  "2026-02-15",
+  "2026-02-16",
+  "2026-02-20",
+  "2026-03-05",
+  "2026-03-06",
+  "2026-03-08",
+  "2026-03-15",
+  "2026-03-16",
+  "2026-03-25",
+  "2026-04-06",
+  "2026-04-12",
+  "2026-04-13",
+  "2026-04-16",
+  "2026-04-20",
+  "2026-04-23",
+  "2026-04-30",
+  "2026-05-08",
+  "2026-05-13",
+  "2026-05-14",
+  "2026-05-18",
+  "2026-05-28",
+  "2026-05-29",
+  "2026-06-04",
+  "2026-06-07",
+  "2026-06-17",
+  "2026-06-18",
+  "2026-06-24",
+  "2026-06-25",
+  "2026-07-02",
+  "2026-07-05",
+  "2026-07-12",
+  "2026-08-23",
+  "2026-08-30",
+  "2026-08-31",
+  "2026-09-07",
+  "2026-09-13",
+  "2026-09-17",
+  "2026-10-25",
+  "2026-10-30",
+  "2026-11-01",
+  "2026-11-11",
+  "2026-11-13",
+  "2026-11-15",
+  "2026-11-16",
+  "2026-11-20",
+  "2026-11-29",
+  "2026-12-04",
+  "2026-12-06",
+  "2026-12-10",
+  "2026-12-13",
+  "2026-12-14"
+ ],
+ "sheets": {
+  "2026-09-25": {
+   "date": {
+    "label": "தேதி",
+    "value": "8 - புரட்டாசி - பராபவ  வெள்ளி"
+   },
+   "nalla_neram": {
+    "label": "நல்ல நேரம்",
+    "value": "09:15 - 10:15 கா / AM  04:45 - 05:45 மா / PM"
+   },
+   "gowri_nalla_neram": {
+    "label": "கௌரி நல்ல நேரம்",
+    "value": "12:15 - 01:15 கா / AM  06:30 - 07:30 மா / PM"
+   },
+   "rahu_kalam": {
+    "label": "இராகு காலம்",
+    "value": "10.30 - 12.00"
+   },
+   "emagandam": {
+    "label": "எமகண்டம்",
+    "value": "03.00 - 04.30"
+   },
+   "kuligai": {
+    "label": "குளிகை",
+    "value": "07.30 - 09.00"
+   },
+   "soolam": {
+    "label": "சூலம்",
+    "value": "மேற்கு  Merkku"
+   },
+   "parigaram": {
+    "label": "பரிகாரம்",
+    "value": "வெல்லம்  Vellam"
+   },
+   "chandirashtamam": {
+    "label": "சந்திராஷ்டமம்",
+    "value": "ஆயில்யம் மகம்"
+   },
+   "naal": {
+    "label": "நாள்",
+    "value": "மேல் நோக்கு நாள்"
+   },
+   "lagnam": {
+    "label": "லக்னம்",
+    "value": "கன்னி லக்னம் இருப்பு நாழிகை 03 வினாடி 50"
+   },
+   "sunrise": {
+    "label": "சூரிய உதயம்",
+    "value": "06:03 கா / AM"
+   },
+   "sraardha_thithi": {
+    "label": "ஸ்ரார்த திதி",
+    "value": "சதுர்த்தசி"
+   },
+   "thithi": {
+    "label": "திதி",
+    "value": "இன்று இரவு 11:12 PM வரை சதுர்த்தசி பின்பு பௌர்ணமி"
+   },
+   "nakshatram": {
+    "label": "நட்சத்திரம்",
+    "value": "இன்று பகல் 12:04 PM வரை சதயம் பின்பு பூரட்டாதி"
+   },
+   "subakariyam": {
+    "label": "சுபகாரியம்",
+    "value": "ஆபரணம் அணிய, தொழில் ஆரம்பம் செய்ய, சுபம் பேச சிறந்த நாள்"
+   }
+  },
+  "2026-09-26": {
+   "date": {
+    "label": "தேதி",
+    "value": "9 - புரட்டாசி - பராபவ  சனி"
+   },
+   "today": {
+    "label": "இன்று",
+    "value": "பௌர்ணமி"
+   },
+   "nalla_neram": {
+    "label": "நல்ல நேரம்",
+    "value": "07:45 - 08:45 கா / AM  04:45 - 05:45 மா / PM"
+   },
+   "gowri_nalla_neram": {
+    "label": "கௌரி நல்ல நேரம்",
+    "value": "10:45 - 11:45 கா / AM  09:30 - 10:30 மா / PM"
+   },
+   "rahu_kalam": {
+    "label": "இராகு காலம்",
+    "value": "09.00 - 10.30"
+   },
+   "emagandam": {
+    "label": "எமகண்டம்",
+    "value": "01.30 - 03.00"
+   },
+   "kuligai": {
+    "label": "குளிகை",
+    "value": "06.00 - 07.30"
+   },
+   "soolam": {
+    "label": "சூலம்",
+    "value": "கிழக்கு  Kilakku"
+   },
+   "parigaram": {
+    "label": "பரிகாரம்",
+    "value": "தயிர்  Thayir"
+   },
+   "chandirashtamam": {
+    "label": "சந்திராஷ்டமம்",
+    "value": "மகம் பூரம்"
+   },
+   "naal": {
+    "label": "நாள்",
+    "value": "கீழ் நோக்கு நாள்"
+   },
+   "lagnam": {
+    "label": "லக்னம்",
+    "value": "கன்னி லக்னம் இருப்பு நாழிகை 03 வினாடி 40"
+   },
+   "sunrise": {
+    "label": "சூரிய உதயம்",
+    "value": "06:03 கா / AM"
+   },
+   "sraardha_thithi": {
+    "label": "ஸ்ரார்த திதி",
+    "value": "பௌர்ணமி"
+   },
+   "thithi": {
+    "label": "திதி",
+    "value": "இன்று இரவு 10:50 PM வரை பௌர்ணமி பின்பு பிரதமை"
+   },
+   "nakshatram": {
+    "label": "நட்சத்திரம்",
+    "value": "இன்று பகல் 12:33 PM வரை பூரட்டாதி பின்பு உத்திரட்டாதி"
+   },
+   "subakariyam": {
+    "label": "சுபகாரியம்",
+    "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+   }
+  }
+ },
+ "tamil_dates": {
+  "2026-09-25": [
+   "புரட்டாசி",
+   8
+  ],
+  "2026-09-26": [
+   "புரட்டாசி",
+   9
+  ]
+ },
+ "source_ok": true,
+ "updated": "2026-09-26"
+}

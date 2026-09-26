@@ -1,0 +1,153 @@
+{
+ "date": "2026-09-26",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "புரட்டாசி",
+ "tamil_day": 9,
+ "tamil_date": "புரட்டாசி 9",
+ "items": [
+  {
+   "kind": "festival",
+   "key": "purattasi_sani",
+   "name": "புரட்டாசி சனிக்கிழமை",
+   "note": "பெருமாளுக்கு மிகவும் உகந்த நாள். விரதம் இருந்து, மாவிளக்கு போட்டு பெருமாளை வழிபடுவர்."
+  },
+  {
+   "kind": "special",
+   "key": "pournami",
+   "name": "பௌர்ணமி",
+   "note": "முழு நிலவு நாள். அம்மன் வழிபாடு, கிரிவலம், சத்யநாராயண பூஜை செய்வது வழக்கம்."
+  }
+ ],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "9 - புரட்டாசி - பராபவ  சனி"
+  },
+  "today": {
+   "label": "இன்று",
+   "value": "பௌர்ணமி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "07:45 - 08:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "மகம் பூரம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "கீழ் நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "கன்னி லக்னம் இருப்பு நாழிகை 03 வினாடி 40"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:03 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "பௌர்ணமி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று இரவு 10:50 PM வரை பௌர்ணமி பின்பு பிரதமை"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று பகல் 12:33 PM வரை பூரட்டாதி பின்பு உத்திரட்டாதி"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-09-27",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "புரட்டாசி",
+  "tamil_day": 10,
+  "tamil_date": "புரட்டாசி 10",
+  "items": [
+   {
+    "kind": "festival",
+    "key": "mahalaya_paksham",
+    "name": "மஹாளய பட்சாரம்பம்",
+    "note": "முன்னோர்களை நினைத்து வழிபடும் 15 நாட்கள் தொடங்குகிறது. மஹாளய அமாவாசை அன்று தர்ப்பணம் சிறப்பு."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-09-26.jpg",
+   "tag": "vishnu",
+   "reason": "purattasi_sani",
+   "title": "File:\"Garuda Vahan Vishnu,\" from the Ravi Varma studio, c.1910's.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%22Garuda_Vahan_Vishnu,%22_from_the_Ravi_Varma_studio,_c.1910%27s.jpg"
+  },
+  {
+   "file": "cards/2026-09-26_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:2014 Track on Fremington Edge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_Track_on_Fremington_Edge.jpg"
+  },
+  {
+   "file": "cards/2026-09-26_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Pacritet2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacritet2.jpg"
+  },
+  {
+   "file": "cards/2026-09-26_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Alcea rosea 2022 G1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcea_rosea_2022_G1.jpg"
+  },
+  {
+   "file": "cards/2026-09-26_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Human–canine friendship - girl hugging her dog tightly at golden hour in Laos.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Human%E2%80%93canine_friendship_-_girl_hugging_her_dog_tightly_at_golden_hour_in_Laos.jpg"
+  }
+ ],
+ "notify_line": "இன்று புரட்டாசி சனிக்கிழமை, பௌர்ணமி. பெருமாளுக்கு மிகவும் உகந்த நாள்",
+ "source_ok": true
+}
