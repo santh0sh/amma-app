@@ -1,0 +1,33 @@
+    # One Project Madurai number can list several titles in the same text volume.
+    # Keep the legacy ID so saved Favorites and reading progress still resolve.
+    volumes = {}
+    for w in works:
+        current = volumes.get(w["id"])
+        if current is None:
+            volumes[w["id"]] = {**w, "titles": list(w.get("titles") or [w["title"]]),
+                                   "authors": list(w.get("authors") or ([w["author"]] if w.get("author") else []))}
+            continue
+        if current["source"] != "pm" or w["source"] != "pm":
+            # If an API repeats one identical FTE listing, keep its first copy.
+            if current["source"] == w["source"] == "fte" and all(current.get(k) == w.get(k) for k in ("title", "author", "link")):
+                continue
+            raise ValueError(f"Conflicting duplicate work ID: {w['id']}")
+        for title in w.get("titles") or [w["title"]]:
+            if title and title not in current["titles"]:
+                current["titles"].append(title)
+        for author in w.get("authors") or [w.get("author", "")]:
+            if author and author not in current["authors"]:
+                current["authors"].append(author)
+        for part in w.get("parts", []):
+            if part not in current.get("parts", []):
+                current.setdefault("parts", []).append(part)
+    works = list(volumes.values())
+    for w in works:
+        if w["source"] == "pm" and len(w["titles"]) > 1:
+            base = w["titles"][0]
+            w["title"] = f"{base} (+{len(w['titles'])-1} நூல்கள்)"
+        if w["source"] == "pm" and len(w["authors"]) > 1:
+            w["author"] = ", ".join(w["authors"][:2]) + (f" +{len(w['authors'])-2}" if len(w["authors"]) > 2 else "")
+        w["first_seen"] = seen.get(w["id"], "2000-01-01" if first_run else day)
+        if not w.get("readable"):
+            w.pop("parts", None)
