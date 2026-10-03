@@ -1,0 +1,153 @@
+{
+ "date": "2026-10-03",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "புரட்டாசி",
+ "tamil_day": 16,
+ "tamil_date": "புரட்டாசி 16",
+ "items": [
+  {
+   "kind": "festival",
+   "key": "purattasi_sani",
+   "name": "புரட்டாசி சனிக்கிழமை",
+   "note": "பெருமாளுக்கு மிகவும் உகந்த நாள். விரதம் இருந்து, மாவிளக்கு போட்டு பெருமாளை வழிபடுவர்."
+  },
+  {
+   "kind": "special",
+   "key": "ashtami",
+   "name": "அஷ்டமி",
+   "note": "துர்க்கை, பைரவர் வழிபாட்டுக்கு உகந்த நாள். தேய்பிறை அஷ்டமி காலபைரவருக்கு சிறப்பு. புதிய காரியங்களைத் தவிர்ப்பது வழக்கம்."
+  }
+ ],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "16 - புரட்டாசி - பராபவ  சனி"
+  },
+  "today": {
+   "label": "இன்று",
+   "value": "அஷ்டமி  கரிநாள்"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "07:45 - 08:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "அனுஷம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "மேல் நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "கன்னி லக்னம் இருப்பு நாழிகை 02 வினாடி 30"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:02 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "அஷ்டமி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று காலை 10:04 AM வரை சப்தமி பின்பு அஷ்டமி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று அதிகாலை 04:27 AM வரை மிருகசீரிடம் பின்பு திருவாதிரை"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-10-04",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "புரட்டாசி",
+  "tamil_day": 17,
+  "tamil_date": "புரட்டாசி 17",
+  "items": [
+   {
+    "kind": "special",
+    "key": "navami",
+    "name": "நவமி",
+    "note": "அம்மன், ராமர் வழிபாட்டுக்கு உகந்த நாள். புதிய காரியங்களைத் தவிர்ப்பது வழக்கம்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-10-03.jpg",
+   "tag": "vishnu",
+   "reason": "purattasi_sani",
+   "title": "File:Lakshmi Vishnu.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lakshmi_Vishnu.jpg"
+  },
+  {
+   "file": "cards/2026-10-03_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Berchtesgaden 02.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Berchtesgaden_02.jpg"
+  },
+  {
+   "file": "cards/2026-10-03_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Indian Peacock courtship display at Pench national park (April, 2024) 08.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_Peacock_courtship_display_at_Pench_national_park_(April,_2024)_08.jpg"
+  },
+  {
+   "file": "cards/2026-10-03_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Beilstein - Schmidhausen - Müller-Thurgau-Weg - gelb-rote Tulpenblüten mit Regentropfen (RQCD2782).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Beilstein_-_Schmidhausen_-_M%C3%BCller-Thurgau-Weg_-_gelb-rote_Tulpenbl%C3%BCten_mit_Regentropfen_(RQCD2782).jpg"
+  },
+  {
+   "file": "cards/2026-10-03_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Girl with swimming board.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Girl_with_swimming_board.jpg"
+  }
+ ],
+ "notify_line": "இன்று புரட்டாசி சனிக்கிழமை, அஷ்டமி. பெருமாளுக்கு மிகவும் உகந்த நாள்",
+ "source_ok": true
+}
