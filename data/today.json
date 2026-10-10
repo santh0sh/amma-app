@@ -1,0 +1,171 @@
+{
+ "date": "2026-10-10",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "புரட்டாசி",
+ "tamil_day": 23,
+ "tamil_date": "புரட்டாசி 23",
+ "items": [
+  {
+   "kind": "festival",
+   "key": "purattasi_sani",
+   "name": "புரட்டாசி சனிக்கிழமை",
+   "note": "பெருமாளுக்கு மிகவும் உகந்த நாள். விரதம் இருந்து, மாவிளக்கு போட்டு பெருமாளை வழிபடுவர்."
+  },
+  {
+   "kind": "festival",
+   "key": "mahalaya_amavasai",
+   "name": "மஹாளய அமாவாசை",
+   "note": "முன்னோர்களுக்கு தர்ப்பணம் கொடுக்க மிகச் சிறந்த நாள். மறுநாள் நவராத்திரி தொடங்கும்."
+  },
+  {
+   "kind": "special",
+   "key": "amavasai",
+   "name": "அமாவாசை",
+   "note": "முன்னோர்களை நினைத்து தர்ப்பணம் கொடுக்கும் நாள். காகத்துக்கு சாதம் வைப்பது வழக்கம்."
+  },
+  {
+   "kind": "holiday",
+   "key": null,
+   "name": "சரஸ்வதி பூஜை",
+   "note": "அரசு விடுமுறை"
+  },
+  {
+   "kind": "holiday",
+   "key": null,
+   "name": "ஆயுத பூஜை",
+   "note": "அரசு விடுமுறை"
+  }
+ ],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "23 - புரட்டாசி - பராபவ  சனி"
+  },
+  "today": {
+   "label": "இன்று",
+   "value": "அமாவாசை  மகாளய அமாவாசை"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "12:15 - 01:15 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "சதயம் பூரட்டாதி"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "சம நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "கன்னி லக்னம் இருப்பு நாழிகை 01 வினாடி 20"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:02 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "அமாவாசை"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று இரவு 09:34 PM வரை அமாவாசை பின்பு பிரதமை"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று இரவு 10:42 PM வரை அஸ்தம் பின்பு சித்திரை"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-10-11",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "புரட்டாசி",
+  "tamil_day": 24,
+  "tamil_date": "புரட்டாசி 24",
+  "items": [
+   {
+    "kind": "festival",
+    "key": "navarathiri",
+    "name": "நவராத்திரி துவக்கம்",
+    "note": "அம்மனுக்கு உகந்த ஒன்பது இரவுகள். வீட்டில் கொலு வைத்து, சுண்டல் படைத்து வழிபடுவர்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-10-10.jpg",
+   "tag": "vishnu",
+   "reason": "purattasi_sani",
+   "title": "File:Lakshmi Vishnu.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lakshmi_Vishnu.jpg"
+  },
+  {
+   "file": "cards/2026-10-10_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Albeck Seebachern Fahrweg zum Weissen Kreuz 22112017 2052.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Albeck_Seebachern_Fahrweg_zum_Weissen_Kreuz_22112017_2052.jpg"
+  },
+  {
+   "file": "cards/2026-10-10_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Majestic Peacock Display at Pench National Park, India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Majestic_Peacock_Display_at_Pench_National_Park,_India.jpg"
+  },
+  {
+   "file": "cards/2026-10-10_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Alcea rosea 2025 G1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcea_rosea_2025_G1.jpg"
+  },
+  {
+   "file": "cards/2026-10-10_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Childhood Joy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Childhood_Joy.jpg"
+  }
+ ],
+ "notify_line": "இன்று புரட்டாசி சனிக்கிழமை, மஹாளய அமாவாசை. பெருமாளுக்கு மிகவும் உகந்த நாள்",
+ "source_ok": true
+}
