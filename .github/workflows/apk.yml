@@ -62,15 +62,17 @@ jobs:
           git add -A && git commit -qm "screens ${{ github.run_id }}" && git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" screens:screens || true
       - uses: actions/upload-artifact@v4
         with:
-          name: amma-apk
+          name: amma-screens
+          retention-days: 1
+          if-no-files-found: ignore
           path: |
-            amma.apk
             app-screenshot*.png
             logcat.txt
-      - name: Release
-        if: startsWith(github.ref, 'refs/tags/v')
+      - name: Release (tag push or manual run; manual runs update the rolling latest prerelease)
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || 'latest' }}
+          prerelease: ${{ !startsWith(github.ref, 'refs/tags/') }}
           files: |
             amma.apk
             app-screenshot.png
