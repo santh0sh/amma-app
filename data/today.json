@@ -1,0 +1,143 @@
+{
+ "date": "2026-10-17",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "புரட்டாசி",
+ "tamil_day": 30,
+ "tamil_date": "புரட்டாசி 30",
+ "items": [
+  {
+   "kind": "festival",
+   "key": "purattasi_sani",
+   "name": "புரட்டாசி சனிக்கிழமை",
+   "note": "பெருமாளுக்கு மிகவும் உகந்த நாள். விரதம் இருந்து, மாவிளக்கு போட்டு பெருமாளை வழிபடுவர்."
+  }
+ ],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "30 - புரட்டாசி - பராபவ  சனி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "12:15 - 01:15 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "மிருகசீரிடம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "கீழ் நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "கன்னி லக்னம் இருப்பு நாழிகை 00 வினாடி 10"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:02 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "சப்தமி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று அதிகாலை 05:08 AM வரை சஷ்டி பின்பு சப்தமி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று காலை 09:53 AM வரை மூலம் பின்பு பூராடம்"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-10-18",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": null,
+  "tamil_day": null,
+  "tamil_date": "",
+  "items": [
+   {
+    "kind": "special",
+    "key": "ashtami",
+    "name": "அஷ்டமி",
+    "note": "துர்க்கை, பைரவர் வழிபாட்டுக்கு உகந்த நாள். தேய்பிறை அஷ்டமி காலபைரவருக்கு சிறப்பு. புதிய காரியங்களைத் தவிர்ப்பது வழக்கம்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-10-17.jpg",
+   "tag": "vishnu",
+   "reason": "purattasi_sani",
+   "title": "File:Lakshmi Vishnu.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lakshmi_Vishnu.jpg"
+  },
+  {
+   "file": "cards/2026-10-17_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Amanhecer no Hercules --.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amanhecer_no_Hercules_--.jpg"
+  },
+  {
+   "file": "cards/2026-10-17_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Paonroue.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Paonroue.JPG"
+  },
+  {
+   "file": "cards/2026-10-17_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Agapanthus 'Windlebrook' 05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Agapanthus_%27Windlebrook%27_05.jpg"
+  },
+  {
+   "file": "cards/2026-10-17_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Human–canine friendship - girl hugging her dog tightly at golden hour in Laos.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Human%E2%80%93canine_friendship_-_girl_hugging_her_dog_tightly_at_golden_hour_in_Laos.jpg"
+  }
+ ],
+ "notify_line": "இன்று புரட்டாசி சனிக்கிழமை. பெருமாளுக்கு மிகவும் உகந்த நாள்",
+ "source_ok": true
+}
