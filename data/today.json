@@ -1,0 +1,142 @@
+{
+ "date": "2026-10-24",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "ஐப்பசி",
+ "tamil_day": 7,
+ "tamil_date": "ஐப்பசி 7",
+ "items": [],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "7 - ஐப்பசி - பராபவ  சனி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "00:30 - 00:30 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "பூரம் உத்திரம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "மேல் நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "துலா லக்னம் இருப்பு நாழிகை 04 வினாடி 00"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:02 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "சதுர்த்தசி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று பகல் 12:20 PM வரை திரயோதசி பின்பு சதுர்த்தசி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று இரவு 08:16 PM வரை உத்திரட்டாதி பின்பு ரேவதி"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-10-25",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "ஐப்பசி",
+  "tamil_day": 8,
+  "tamil_date": "ஐப்பசி 8",
+  "items": [
+   {
+    "kind": "special",
+    "key": "pournami",
+    "name": "பௌர்ணமி",
+    "note": "முழு நிலவு நாள். அம்மன் வழிபாடு, கிரிவலம், சத்யநாராயண பூஜை செய்வது வழக்கம்."
+   },
+   {
+    "kind": "special",
+    "key": "subamuhurtham",
+    "name": "சுபமுகூர்த்த நாள்",
+    "note": "திருமணம், கிரகப்பிரவேசம் போன்ற சுப காரியங்களுக்கு நல்ல நாள்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-10-24.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Adarga (Nymphaea alba), Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adarga_(Nymphaea_alba),_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.jpg"
+  },
+  {
+   "file": "cards/2026-10-24_god.jpg",
+   "tag": "hanuman",
+   "reason": null,
+   "title": "File:Hanuman fetches the herb-bearing mountain, in a print from the Ravi Varma Press, 1910's.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hanuman_fetches_the_herb-bearing_mountain,_in_a_print_from_the_Ravi_Varma_Press,_1910%27s.jpg"
+  },
+  {
+   "file": "cards/2026-10-24_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Araucárias ao fundo Parque Nacional da Serra da Bocaina - denoise.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Arauc%C3%A1rias_ao_fundo_Parque_Nacional_da_Serra_da_Bocaina_-_denoise.jpg"
+  },
+  {
+   "file": "cards/2026-10-24_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Pacritet2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacritet2.jpg"
+  },
+  {
+   "file": "cards/2026-10-24_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Girl with swimming board.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Girl_with_swimming_board.jpg"
+  }
+ ],
+ "notify_line": "காலை வணக்கம்! இன்றைய படம் தயார்.",
+ "source_ok": true
+}
