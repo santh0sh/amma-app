@@ -1,0 +1,140 @@
+{
+ "date": "2026-10-31",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "ஐப்பசி",
+ "tamil_day": 14,
+ "tamil_date": "ஐப்பசி 14",
+ "items": [],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "14 - ஐப்பசி - பராபவ  சனி"
+  },
+  "today": {
+   "label": "இன்று",
+   "value": "தேய்பிறை ஷஷ்டி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "07:45 - 08:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "கேட்டை மூலம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "மேல் நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "துலா லக்னம் இருப்பு நாழிகை 02 வினாடி 50"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:03 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "சஷ்டி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று இரவு 09:33 PM வரை சஷ்டி பின்பு சப்தமி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று பகல் 12:07 PM வரை திருவாதிரை பின்பு புனர்பூசம்"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-11-01",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "ஐப்பசி",
+  "tamil_day": 15,
+  "tamil_date": "ஐப்பசி 15",
+  "items": [
+   {
+    "kind": "special",
+    "key": "subamuhurtham",
+    "name": "சுபமுகூர்த்த நாள்",
+    "note": "திருமணம், கிரகப்பிரவேசம் போன்ற சுப காரியங்களுக்கு நல்ல நாள்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-10-31.jpg",
+   "tag": "lakshmi",
+   "reason": null,
+   "title": "File:Lakshmi Painting.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Lakshmi_Painting.jpg"
+  },
+  {
+   "file": "cards/2026-10-31_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Amanhecer no Hercules --.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amanhecer_no_Hercules_--.jpg"
+  },
+  {
+   "file": "cards/2026-10-31_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Pacritet2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pacritet2.jpg"
+  },
+  {
+   "file": "cards/2026-10-31_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Agapanthus 'Windlebrook' 05.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Agapanthus_%27Windlebrook%27_05.jpg"
+  },
+  {
+   "file": "cards/2026-10-31_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Childhood Joy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Childhood_Joy.jpg"
+  }
+ ],
+ "notify_line": "காலை வணக்கம்! இன்றைய படம் தயார்.",
+ "source_ok": true
+}
