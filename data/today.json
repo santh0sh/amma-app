@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-07",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "ஐப்பசி",
+ "tamil_day": 21,
+ "tamil_date": "ஐப்பசி 21",
+ "items": [
+  {
+   "kind": "special",
+   "key": "maadha_sivarathiri",
+   "name": "மாத சிவராத்திரி",
+   "note": "ஒவ்வொரு மாதமும் வரும் சிவராத்திரி. இரவில் சிவ நாமம் சொல்லி வழிபடலாம்."
+  }
+ ],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "21 - ஐப்பசி - பராபவ  சனி"
+  },
+  "today": {
+   "label": "இன்று",
+   "value": "மாத சிவராத்திரி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "07:45 - 08:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "பூரட்டாதி"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "சம நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "துலா லக்னம் இருப்பு நாழிகை 01 வினாடி 40"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:08 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "சதுர்த்தசி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று காலை 11:44 AM வரை திரயோதசி பின்பு சதுர்த்தசி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று காலை 06:19 AM வரை அஸ்தம் பின்பு சித்திரை"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-11-08",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "ஐப்பசி",
+  "tamil_day": 22,
+  "tamil_date": "ஐப்பசி 22",
+  "items": [
+   {
+    "kind": "festival",
+    "key": "deepavali",
+    "name": "தீபாவளி",
+    "note": "நரகாசுரனை வென்ற நாள். அதிகாலை எண்ணெய் குளியல், புத்தாடை, தீபம், இனிப்புகள்."
+   },
+   {
+    "kind": "special",
+    "key": "amavasai",
+    "name": "அமாவாசை",
+    "note": "முன்னோர்களை நினைத்து தர்ப்பணம் கொடுக்கும் நாள். காகத்துக்கு சாதம் வைப்பது வழக்கம்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-11-07.jpg",
+   "tag": "shiva",
+   "reason": "maadha_sivarathiri",
+   "title": "File:\"Panch dev\" (five gods), from Ravi Varma studio, 1910's.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%22Panch_dev%22_(five_gods),_from_Ravi_Varma_studio,_1910%27s.jpg"
+  },
+  {
+   "file": "cards/2026-11-07_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:AchenseeWinter01.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:AchenseeWinter01.JPG"
+  },
+  {
+   "file": "cards/2026-11-07_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Blaue Pfau Pavo cristatus 1.JPG",
+   "page": "https://commons.wikimedia.org/wiki/File:Blaue_Pfau_Pavo_cristatus_1.JPG"
+  },
+  {
+   "file": "cards/2026-11-07_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Alcea rosea 2022 G1.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcea_rosea_2022_G1.jpg"
+  },
+  {
+   "file": "cards/2026-11-07_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Childhood Joy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Childhood_Joy.jpg"
+  }
+ ],
+ "notify_line": "இன்று மாத சிவராத்திரி. ஒவ்வொரு மாதமும் வரும் சிவராத்திரி",
+ "source_ok": true
+}
