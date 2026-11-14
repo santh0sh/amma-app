@@ -1,0 +1,148 @@
+{
+ "date": "2026-11-14",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "ஐப்பசி",
+ "tamil_day": 28,
+ "tamil_date": "ஐப்பசி 28",
+ "items": [],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "28 - ஐப்பசி - பராபவ  சனி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "07:45 - 08:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  09:00 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "ரோகிணி மிருகசீரிடம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "கீழ் நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "துலா லக்னம் இருப்பு நாழிகை 00 வினாடி 30"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:13 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "பஞ்சமி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று இரவு 09:49 PM வரை பஞ்சமி பின்பு சஷ்டி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று இரவு 07:40 PM வரை பூராடம் பின்பு உத்திராடம்"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-11-15",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "ஐப்பசி",
+  "tamil_day": 29,
+  "tamil_date": "ஐப்பசி 29",
+  "items": [
+   {
+    "kind": "festival",
+    "key": "kandha_sashti",
+    "name": "சூரசம்ஹாரம்",
+    "note": "முருகன் சூரனை வென்ற நாள். ஆறு நாள் விரதம் இன்று நிறைவு பெறும்."
+   },
+   {
+    "kind": "special",
+    "key": "sashti",
+    "name": "சஷ்டி",
+    "note": "முருகனுக்கு விரதம் இருக்கும் நாள். கந்த சஷ்டி கவசம் சொல்லலாம்."
+   },
+   {
+    "kind": "special",
+    "key": "subamuhurtham",
+    "name": "சுபமுகூர்த்த நாள்",
+    "note": "திருமணம், கிரகப்பிரவேசம் போன்ற சுப காரியங்களுக்கு நல்ல நாள்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-11-14.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Five children on a motorcycle.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Five_children_on_a_motorcycle.jpg"
+  },
+  {
+   "file": "cards/2026-11-14_god.jpg",
+   "tag": "santoshi",
+   "reason": null,
+   "title": "File:Santoshi 01.01.2019.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Santoshi_01.01.2019.jpg"
+  },
+  {
+   "file": "cards/2026-11-14_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Albeck Seebachern Fahrweg zum Weissen Kreuz 22112017 2052.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Albeck_Seebachern_Fahrweg_zum_Weissen_Kreuz_22112017_2052.jpg"
+  },
+  {
+   "file": "cards/2026-11-14_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Majestic Peacock Display at Pench National Park, India.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Majestic_Peacock_Display_at_Pench_National_Park,_India.jpg"
+  },
+  {
+   "file": "cards/2026-11-14_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Anthurium (Flamingoplant) 12-08-2019 (actm) 01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Anthurium_(Flamingoplant)_12-08-2019_(actm)_01.jpg"
+  }
+ ],
+ "notify_line": "காலை வணக்கம்! இன்றைய படம் தயார்.",
+ "source_ok": true
+}
