@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-21",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "கார்த்திகை",
+ "tamil_day": 5,
+ "tamil_date": "கார்த்திகை 5",
+ "items": [],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "5 - கார்த்திகை - பராபவ  சனி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "07:45 - 08:45 கா / AM  12:15 - 01:15 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "உத்திரம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "சம நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "விருச்சிக லக்னம் இருப்பு நாழிகை 04 வினாடி 32"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:15 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "துவாதசி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று அதிகாலை 03:01 AM வரை ஏகாதசி பின்பு துவாதசி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று அதிகாலை 04:12 AM வரை உத்திரட்டாதி பின்பு ரேவதி"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-11-22",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "கார்த்திகை",
+  "tamil_day": 6,
+  "tamil_date": "கார்த்திகை 6",
+  "items": [
+   {
+    "kind": "special",
+    "key": "pradosham",
+    "name": "பிரதோஷம்",
+    "note": "சிவனுக்கும் நந்திக்கும் உகந்த நாள். மாலை 4.30 முதல் 6.00 வரை பிரதோஷ வேளையில் சிவன் கோவில் தரிசனம் சிறப்பு."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-11-21.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:2014 Track on Fremington Edge.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_Track_on_Fremington_Edge.jpg"
+  },
+  {
+   "file": "cards/2026-11-21_god.jpg",
+   "tag": "krishna",
+   "reason": null,
+   "title": "File:A woman milking a cow with a child, possibly Krishna begging Wellcome V0045075.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:A_woman_milking_a_cow_with_a_child,_possibly_Krishna_begging_Wellcome_V0045075.jpg"
+  },
+  {
+   "file": "cards/2026-11-21_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Pavo cristatus Campo Grande.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Pavo_cristatus_Campo_Grande.jpg"
+  },
+  {
+   "file": "cards/2026-11-21_flowers.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:Adarga (Nymphaea alba), Ciudad Ho Chi Minh, Vietnam, 2013-08-14, DD 01.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Adarga_(Nymphaea_alba),_Ciudad_Ho_Chi_Minh,_Vietnam,_2013-08-14,_DD_01.jpg"
+  },
+  {
+   "file": "cards/2026-11-21_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Childhood Joy.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Childhood_Joy.jpg"
+  }
+ ],
+ "notify_line": "காலை வணக்கம்! இன்றைய படம் தயார்.",
+ "source_ok": true
+}
