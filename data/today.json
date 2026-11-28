@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-28",
+ "weekday_ta": "சனிக்கிழமை",
+ "tamil_month": "கார்த்திகை",
+ "tamil_day": 12,
+ "tamil_date": "கார்த்திகை 12",
+ "items": [],
+ "weekday_note": {
+  "name": "சனி",
+  "note": "பெருமாள், ஆஞ்சநேயர், சனீஸ்வர பகவானுக்கு உகந்த நாள்."
+ },
+ "sheet": {
+  "date": {
+   "label": "தேதி",
+   "value": "12 - கார்த்திகை - பராபவ  சனி"
+  },
+  "nalla_neram": {
+   "label": "நல்ல நேரம்",
+   "value": "10:45 - 11:45 கா / AM  04:45 - 05:45 மா / PM"
+  },
+  "gowri_nalla_neram": {
+   "label": "கௌரி நல்ல நேரம்",
+   "value": "12:15 - 01:15 கா / AM  09:30 - 10:30 மா / PM"
+  },
+  "rahu_kalam": {
+   "label": "இராகு காலம்",
+   "value": "09.00 - 10.30"
+  },
+  "emagandam": {
+   "label": "எமகண்டம்",
+   "value": "01.30 - 03.00"
+  },
+  "kuligai": {
+   "label": "குளிகை",
+   "value": "06.00 - 07.30"
+  },
+  "soolam": {
+   "label": "சூலம்",
+   "value": "கிழக்கு  Kilakku"
+  },
+  "parigaram": {
+   "label": "பரிகாரம்",
+   "value": "தயிர்  Thayir"
+  },
+  "chandirashtamam": {
+   "label": "சந்திராஷ்டமம்",
+   "value": "மூலம் பூராடம்"
+  },
+  "naal": {
+   "label": "நாள்",
+   "value": "சம நோக்கு நாள்"
+  },
+  "lagnam": {
+   "label": "லக்னம்",
+   "value": "விருச்சிக லக்னம் இருப்பு நாழிகை 03 வினாடி 16"
+  },
+  "sunrise": {
+   "label": "சூரிய உதயம்",
+   "value": "06:15 கா / AM"
+  },
+  "sraardha_thithi": {
+   "label": "ஸ்ரார்த திதி",
+   "value": "பஞ்சமி"
+  },
+  "thithi": {
+   "label": "திதி",
+   "value": "இன்று பகல் 12:18 PM வரை சதுர்த்தி பின்பு பஞ்சமி"
+  },
+  "nakshatram": {
+   "label": "நட்சத்திரம்",
+   "value": "இன்று மாலை 06:44 PM வரை புனர்பூசம் பின்பு பூசம்"
+  },
+  "subakariyam": {
+   "label": "சுபகாரியம்",
+   "value": "ஆயுதம் பழக, யாத்திரை போக, வார்படஞ் செய்ய, சுபம் பேச சிறந்த நாள்"
+  }
+ },
+ "tomorrow": {
+  "date": "2026-11-29",
+  "weekday_ta": "ஞாயிற்றுக்கிழமை",
+  "tamil_month": "கார்த்திகை",
+  "tamil_day": 13,
+  "tamil_date": "கார்த்திகை 13",
+  "items": [
+   {
+    "kind": "special",
+    "key": "subamuhurtham",
+    "name": "சுபமுகூர்த்த நாள்",
+    "note": "திருமணம், கிரகப்பிரவேசம் போன்ற சுப காரியங்களுக்கு நல்ல நாள்."
+   }
+  ],
+  "weekday_note": {
+   "name": "ஞாயிறு",
+   "note": "சூரிய பகவானுக்கு உகந்த நாள்."
+  }
+ },
+ "cards": [
+  {
+   "file": "cards/2026-11-28.jpg",
+   "tag": "flowers",
+   "reason": null,
+   "title": "File:2014.03.29.-19-Mannheim Neckarau Waldpark--Wald-Veilchen.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:2014.03.29.-19-Mannheim_Neckarau_Waldpark--Wald-Veilchen.jpg"
+  },
+  {
+   "file": "cards/2026-11-28_god.jpg",
+   "tag": "hanuman",
+   "reason": null,
+   "title": "File:Hanuman before Rama and Sita and attendant. Gouache drawing. Wellcome V0044947.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Hanuman_before_Rama_and_Sita_and_attendant._Gouache_drawing._Wellcome_V0044947.jpg"
+  },
+  {
+   "file": "cards/2026-11-28_nature.jpg",
+   "tag": "nature",
+   "reason": null,
+   "title": "File:Amanhecer no Hercules --.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Amanhecer_no_Hercules_--.jpg"
+  },
+  {
+   "file": "cards/2026-11-28_peacock.jpg",
+   "tag": "peacock",
+   "reason": null,
+   "title": "File:Indian peacock (Pavo cristatus), Jardim Botânico Tropical, Lisbon, Portugal (approx. GPS location) julesvernex2-2.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Indian_peacock_(Pavo_cristatus),_Jardim_Bot%C3%A2nico_Tropical,_Lisbon,_Portugal_(approx._GPS_location)_julesvernex2-2.jpg"
+  },
+  {
+   "file": "cards/2026-11-28_kids.jpg",
+   "tag": "kids",
+   "reason": null,
+   "title": "File:Girl with swimming board.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Girl_with_swimming_board.jpg"
+  }
+ ],
+ "notify_line": "காலை வணக்கம்! இன்றைய படம் தயார்.",
+ "source_ok": true
+}
